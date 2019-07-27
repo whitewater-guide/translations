@@ -9,6 +9,7 @@
     "prebuild": "rimraf dist",
     "build": "rollup -c rollup.config.ts && rimraf dist/*/*/",
     "prettier": "prettier --config .prettierrc.yml --write \"./**/*.{js,jsx,ts*,md,graphql}\"",
+    "prepublishOnly": "yarn build",
     "semantic-release": "semantic-release"
   },
   "repository": {

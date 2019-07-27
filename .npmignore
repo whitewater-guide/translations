@@ -6,6 +6,7 @@ src/
 .gitignore
 .prettierignore
 .prettierrc.yml
+.travis.yml
 release.config.json
 rollup.config.js
 tsconfig.json
