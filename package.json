@@ -7,7 +7,7 @@
   "react-native": "dist/esm/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "rollup -c rollup.config.ts && rimraf dist/*/*/",
+    "build": "rollup -c rollup.config.js && rimraf dist/*/*/",
     "prettier": "prettier --config .prettierrc.yml --write \"./**/*.{js,jsx,ts*,md,graphql}\"",
     "prepublishOnly": "yarn build",
     "semantic-release": "semantic-release"
