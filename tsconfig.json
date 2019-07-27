@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "noEmitOnError": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "jsx": "react",
+    "lib": ["esnext", "dom"],
+    "target": "es2015",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    "skipLibCheck": false,
+
+    "strict": true,
+    "strictFunctionTypes": false,
+
+    "pretty": true,
+
+    "outDir": "dist"
+  },
+  "include": ["declarations/*.ts","./src/**/*.ts", "./src/**/*.json"]
+}
