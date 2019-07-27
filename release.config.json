@@ -2,9 +2,24 @@
   "branch": "master",
   "plugins": [
     [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "angular",
+        "releaseRules": [
+          { "breaking": true, "release": "major" },
+          { "revert": true, "release": "patch" },
+          { "type": "feat", "release": "minor" },
+          { "type": "fix", "release": "patch" },
+          { "type": "perf", "release": "patch" },
+          { "type": "chore", "release": "patch" }
+        ]
+      }
+    ],
+    "@semantic-release/release-notes-generator",
+    [
       "@semantic-release/git",
       {
-        "assets": ["package.json", "CHANGELOG.md"]
+        "assets": ["package.json"]
       }
     ],
     "@semantic-release/npm",
