@@ -5,6 +5,9 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "react-native": "dist/esm/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c rollup.config.js && rimraf dist/*/*/",
