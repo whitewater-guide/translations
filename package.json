@@ -1,6 +1,6 @@
 {
   "name": "@whitewater-guide/translations",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "translations for whitewater.guide project",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -8,11 +8,12 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c rollup.config.ts && rimraf dist/*/*/",
-    "prettier": "prettier --config .prettierrc.yml --write \"./**/*.{js,jsx,ts*,md,graphql}\""
+    "prettier": "prettier --config .prettierrc.yml --write \"./**/*.{js,jsx,ts*,md,graphql}\"",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whitewater-guide/translations.git"
+    "url": "https://github.com/whitewater-guide/translations.git"
   },
   "author": "Konstantin Kuznetsov",
   "license": "Unlicense",
@@ -21,12 +22,14 @@
   },
   "homepage": "https://github.com/whitewater-guide/translations#readme",
   "devDependencies": {
+    "@semantic-release/git": "^7.0.16",
     "prettier": "^1.18.2",
     "rimraf": "^2.6.3",
     "rollup": "^1.17.0",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-string": "^3.0.0",
     "rollup-plugin-typescript2": "^0.22.1",
+    "semantic-release": "^15.13.18",
     "tslib": "^1.10.0",
     "typescript": "^3.5.3"
   }
