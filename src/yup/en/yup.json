@@ -5,7 +5,8 @@
         "oneOf": "Must be one of following: {{ values }}",
         "notOneOf": "Must not be one of following: {{ values }}",
         "noType": "Must not be {{ type }}",
-        "defined": "Value must be defined"
+        "defined": "Value must be defined",
+        "newNode": "Invalid existing or new node reference"
     },
     "string": {
         "length": "Must be exactly {{ length }} symbols long",
