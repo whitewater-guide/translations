@@ -50,5 +50,8 @@
     "array": {
         "min": "Must have at least {{ min }} items",
         "max": "Must have at most to {{ max }} items"
+    },
+    "varchar": {
+        "nonEmpty": "The value must not be empty or longer than 255 characters"
     }
 }
