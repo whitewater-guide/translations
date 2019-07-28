@@ -28,6 +28,7 @@
   "homepage": "https://github.com/whitewater-guide/translations#readme",
   "devDependencies": {
     "@semantic-release/git": "^7.0.16",
+    "i18next": "^17.0.6",
     "prettier": "^1.18.2",
     "rimraf": "^2.6.3",
     "rollup": "^1.17.0",
@@ -37,5 +38,8 @@
     "semantic-release": "^15.13.18",
     "tslib": "^1.10.0",
     "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "i18next": "*"
   }
 }

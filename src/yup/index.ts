@@ -1,8 +1,8 @@
-import { Translations } from '../types';
+import i18next from 'i18next';
 import en from './en';
 import ru from './ru';
 
-const yup: Translations = {
+const yup: i18next.Resource = {
   en,
   ru,
 };
