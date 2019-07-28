@@ -22,7 +22,8 @@
         "cron": "Invalid cron expression",
         "formula": "Invalid formula",
         "https": "The URL must use HTTPS protocol",
-        "json": "Invalid JSON string"
+        "json": "Invalid JSON string",
+        "nonEmpty": "The string must not be empty"
     },
     "number": {
         "min": "Must be greater than or equal to {{ min }}",
