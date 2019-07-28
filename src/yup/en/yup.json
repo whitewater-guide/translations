@@ -24,7 +24,8 @@
         "https": "The URL must use HTTPS protocol",
         "json": "Invalid JSON string",
         "nonEmpty": "The string must not be empty",
-        "sku": "Invalid SKU identifier"
+        "sku": "Invalid SKU identifier",
+        "uuid": "Invalid UUID"
     },
     "number": {
         "min": "Must be greater than or equal to {{ min }}",
