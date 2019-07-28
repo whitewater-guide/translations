@@ -19,7 +19,8 @@
         "lowercase": "Must be a lowercase string",
         "uppercase": "Must be an uppercase string",
         "weak_password": "Password is too weak",
-        "cron": "Invalid cron expression"
+        "cron": "Invalid cron expression",
+        "formula": "Invalid formula"
     },
     "number": {
         "min": "Must be greater than or equal to {{ min }}",
