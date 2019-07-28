@@ -4,7 +4,8 @@
         "required": "This field is required",
         "oneOf": "Must be one of following: {{ values }}",
         "notOneOf": "Must not be one of following: {{ values }}",
-        "noType": "Must not be {{ type }}"
+        "noType": "Must not be {{ type }}",
+        "defined": "Value must be defined"
     },
     "string": {
         "length": "Must be exactly {{ length }} symbols long",
