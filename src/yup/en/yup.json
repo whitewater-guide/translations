@@ -30,7 +30,8 @@
         "positive": "Must be a positive number",
         "negative": "Must be a negative number",
         "integer": "Must be an integer",
-        "altitude": "Invalid altitude value"
+        "altitude": "Invalid altitude value",
+        "latitude": "Invalid latitude value"
     },
     "date": {
         "min": "Must be later than {{ min }}",
