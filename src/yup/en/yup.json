@@ -29,7 +29,8 @@
         "notEqual": "Must not be equal to {{ notEqual }}",
         "positive": "Must be a positive number",
         "negative": "Must be a negative number",
-        "integer": "Must be an integer"
+        "integer": "Must be an integer",
+        "altitude": "Invalid altitude value"
     },
     "date": {
         "min": "Must be later than {{ min }}",
