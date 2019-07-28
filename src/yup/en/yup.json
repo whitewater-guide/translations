@@ -31,7 +31,8 @@
         "negative": "Must be a negative number",
         "integer": "Must be an integer",
         "altitude": "Invalid altitude value",
-        "latitude": "Invalid latitude value"
+        "latitude": "Invalid latitude value",
+        "longitude": "Invalid longitude value"
     },
     "date": {
         "min": "Must be later than {{ min }}",
