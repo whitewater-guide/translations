@@ -21,7 +21,8 @@
         "weak_password": "Password is too weak",
         "cron": "Invalid cron expression",
         "formula": "Invalid formula",
-        "https": "The URL must use HTTPS protocol"
+        "https": "The URL must use HTTPS protocol",
+        "json": "Invalid JSON string"
     },
     "number": {
         "min": "Must be greater than or equal to {{ min }}",
