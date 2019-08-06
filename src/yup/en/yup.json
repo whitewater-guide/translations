@@ -53,5 +53,9 @@
     },
     "varchar": {
         "nonEmpty": "The value must not be empty or longer than 255 characters"
+    },
+    "file": {
+        "tooSmall": "Minimum file size is {{minSize}}",
+        "tooLarge": "Maximum file size is {{maxSize}}"
     }
 }
