@@ -94,7 +94,8 @@
         "photoPicker": {
             "placeholder": "Select a photo",
             "pickerTitle": "Select a photo",
-            "pickerCamera": "Take photo"
+            "pickerCamera": "Take photo",
+            "pickerGallery": "Choose from gallery"
         }
     },
     "yup": {
