@@ -92,7 +92,8 @@
             "strength4": "strong"
         },
         "photoPicker": {
-            "placeholder": "Select a photo"
+            "placeholder": "Select a photo",
+            "pickerTitle": "Select a photo"
         }
     },
     "yup": {
