@@ -226,7 +226,8 @@
             "copyrightLabel": "Copyright",
             "copyrightPlaceholder": "Copyright (optional)",
             "photoDescriptionLabel": "Description",
-            "photoDescriptionPlaceholder": "Optional description. E.g. at what water level was this photo taken."
+            "photoDescriptionPlaceholder": "Optional description. E.g. at what water level was this photo taken.",
+            "submitPhoto": "Send photo"
         }
     },
     "features": {
