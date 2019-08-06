@@ -230,7 +230,10 @@
             "submitPhoto": "Send photo",
             "suggestionLabel": "Suggested changes",
             "suggestionPlaceholder": "What do you think we should change or add to this section's description?",
-            "submitSimple": "Suggest change"
+            "submitSimple": "Suggest change",
+            "simple": {
+                "title": "Suggest changes"
+            }
         }
     },
     "features": {
