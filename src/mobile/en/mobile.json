@@ -228,7 +228,8 @@
             "photoDescriptionLabel": "Description",
             "photoDescriptionPlaceholder": "Optional description. E.g. at what water level was this photo taken.",
             "submitPhoto": "Send photo",
-            "suggestionLabel": "Suggested changes"
+            "suggestionLabel": "Suggested changes",
+            "suggestionPlaceholder": "What do you think we should change or add to this section's description?"
         }
     },
     "features": {
