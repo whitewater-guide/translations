@@ -55,6 +55,7 @@
         "nonEmpty": "The value must not be empty or longer than 255 characters"
     },
     "file": {
-        "tooSmall": "Minimal file size is {{minSize}}"
+        "tooSmall": "Minimal file size is {{minSize}}",
+        "tooLarge": "Maximum file size is {{maxSize}}"
     }
 }
