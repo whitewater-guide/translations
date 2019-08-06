@@ -223,7 +223,8 @@
             }
         },
         "suggestion": {
-            "copyrightLabel": "Copyright"
+            "copyrightLabel": "Copyright",
+            "copyrightPlaceholder": "Copyright (optional)"
         }
     },
     "features": {
