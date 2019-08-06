@@ -224,7 +224,8 @@
         },
         "suggestion": {
             "copyrightLabel": "Copyright",
-            "copyrightPlaceholder": "Copyright (optional)"
+            "copyrightPlaceholder": "Copyright (optional)",
+            "photoDescriptionLabel": "Description"
         }
     },
     "features": {
