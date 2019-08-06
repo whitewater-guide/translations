@@ -233,6 +233,9 @@
             "submitSimple": "Suggest change",
             "simple": {
                 "title": "Suggest changes"
+            },
+            "photo": {
+                "title": "Suggest new photo"
             }
         }
     },
