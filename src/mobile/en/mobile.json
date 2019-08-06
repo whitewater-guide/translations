@@ -225,7 +225,8 @@
         "suggestion": {
             "copyrightLabel": "Copyright",
             "copyrightPlaceholder": "Copyright (optional)",
-            "photoDescriptionLabel": "Description"
+            "photoDescriptionLabel": "Description",
+            "photoDescriptionPlaceholder": "Optional description. E.g. at what water level was this photo taken."
         }
     },
     "features": {
