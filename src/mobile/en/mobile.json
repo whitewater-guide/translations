@@ -236,7 +236,8 @@
             },
             "photo": {
                 "title": "Suggest new photo"
-            }
+            },
+            "termsOfUse": "Your content will be subjected to our Terms of Use"
         }
     },
     "features": {
