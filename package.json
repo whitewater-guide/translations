@@ -1,6 +1,6 @@
 {
   "name": "@whitewater-guide/translations",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "translations for whitewater.guide project",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
