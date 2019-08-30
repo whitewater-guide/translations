@@ -244,70 +244,70 @@
                 "title": "Suggest new photo"
             },
             "termsOfUse": "Your content will be subjected to our Terms of Use",
-            "successMessage": "Success!"
+            "successMessage": "Success! Sent for review"
         },
         "addSection": {
             "headerTitle": "Suggest section",
             "tabs": {
-              "main": "Main",
-              "attributes": "Additional",
-              "description": "Description",
-              "flows": "Flows"
+                "main": "Main",
+                "attributes": "Additional",
+                "description": "Description",
+                "flows": "Flows"
             },
             "successMessage": "Success! Sent for review",
             "description": {
-              "label": "Section description"
+                "label": "Section description"
             },
             "flows": {
-              "gaugePlaceholder": "Online gauge",
-              "season": "Season notes",
-              "seasonHelper": "e.g. «during monsoon»",
-              "flowsText": "Water levels notes",
-              "flowsTextHelper": "e.g. «1-2 days after rainfall»",
-              "flows": {
-                "title": "Estimated flows",
-                "min": "Minimum",
-                "opt": "Optimum",
-                "max": "Maximum",
-                "imp": "Impossibly high",
-                "formulaLabel": "Formula",
-                "formulaHelper": "e.g. «(x + 1) * 2»"
-              },
-              "levels": {
-                "title": "Estimated levels",
-                "min": "Minimum",
-                "opt": "Optimum",
-                "max": "Maximum",
-                "imp": "Impossibly high"
-              }
+                "gaugePlaceholder": "Online gauge",
+                "season": "Season notes",
+                "seasonHelper": "e.g. «during monsoon»",
+                "flowsText": "Water levels notes",
+                "flowsTextHelper": "e.g. «1-2 days after rainfall»",
+                "flows": {
+                    "title": "Estimated flows",
+                    "min": "Minimum",
+                    "opt": "Optimum",
+                    "max": "Maximum",
+                    "imp": "Impossibly high",
+                    "formulaLabel": "Formula",
+                    "formulaHelper": "e.g. «(x + 1) * 2»"
+                },
+                "levels": {
+                    "title": "Estimated levels",
+                    "min": "Minimum",
+                    "opt": "Optimum",
+                    "max": "Maximum",
+                    "imp": "Impossibly high"
+                }
             },
             "gauge": {
-              "listNotFound": "No online gauges found",
-              "listNoInput": "Type in something first",
-              "searchPlaceholder": "Online gauge name",
-              "title": "Select online gauge"
+                "listNotFound": "No online gauges found",
+                "listNoInput": "Type in something first",
+                "searchPlaceholder": "Online gauge name",
+                "title": "Select online gauge"
             },
             "main": {
-              "nameLabel": "Section name",
-              "riverLabel": "River",
-              "difficultyXtraHelper": "e.g. «V+, X»"
+                "nameLabel": "Section name",
+                "riverLabel": "River",
+                "difficultyXtraHelper": "e.g. «V+, X»"
             },
             "river": {
-              "listNotFound": "No rivers found",
-              "listNoInput": "Type in something first",
-              "addItemPlaceholder": "Type in something first",
-              "searchPlaceholder": "River name",
-              "newSubheader": "Suggest new river",
-              "resultsSubheader": "or select existing river",
-              "title": "Select river"
+                "listNotFound": "No rivers found",
+                "listNoInput": "Type in something first",
+                "addItemPlaceholder": "Type in something first",
+                "searchPlaceholder": "River name",
+                "newSubheader": "Suggest new river",
+                "resultsSubheader": "or select existing river",
+                "title": "Select river"
             },
             "shape": {
-              "pressCta": "press to select",
-              "releaseCta": "tap to save",
-              "dragCta": "move to select",
-              "title": "Select location"
+                "pressCta": "press to select",
+                "releaseCta": "tap to save",
+                "dragCta": "move to select",
+                "title": "Select location"
             }
-        }      
+        }
     },
     "features": {
         "purchases": {
