@@ -41,5 +41,13 @@
     "earlyMonth": "early {{month, month}}",
     "lateMonth": "late {{month, month}}",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms Of Service"
+    "termsOfService": "Terms Of Service",
+    "create": "Create",
+    "done": "Done",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "altitude": "Altitude",
+    "ok": "OK",
+    "clear": "Clear",
+    "paste": "Paste"
 }
