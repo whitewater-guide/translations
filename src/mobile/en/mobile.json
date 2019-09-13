@@ -265,7 +265,7 @@
                 "flowsText": "Water levels notes",
                 "flowsTextHelper": "e.g. «1-2 days after rainfall»",
                 "flows": {
-                    "title": "Estimated flows",
+                    "title": "Flows",
                     "min": "Minimum",
                     "opt": "Optimum",
                     "max": "Maximum",
@@ -274,7 +274,7 @@
                     "formulaHelper": "e.g. «(x + 1) * 2»"
                 },
                 "levels": {
-                    "title": "Estimated levels",
+                    "title": "Levels",
                     "min": "Minimum",
                     "opt": "Optimum",
                     "max": "Maximum",
