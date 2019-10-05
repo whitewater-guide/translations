@@ -49,7 +49,7 @@ const HEADER = `<!DOCTYPE html>
   <body>
     <!-- WRAPPER -->
     <div class="wrapper">
-      <section>
+      <section class="generated-markdown">
         <div class="container">
 `;
 
@@ -57,7 +57,7 @@ const FOOTER = `</div>
       </section>
 
       <!-- FOOTER -->
-      <footer>
+      <footer class="generated-markdown">
         <div class="container">
           <p class="copyright">&copy;2019 whitewater.guide</p>
         </div>
