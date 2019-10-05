@@ -32,8 +32,8 @@ const HEADER = `<!DOCTYPE html>
       rel="stylesheet"
       type="text/css"
     />
-    <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/skins/blue.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/skins/blue.css" rel="stylesheet" type="text/css" />
 
     <!-- GOOGLE FONTS -->
     <link
@@ -43,7 +43,7 @@ const HEADER = `<!DOCTYPE html>
     />
     <!-- FAV AND TOUCH ICONS -->
     <!--<link rel="apple-touch-icon-precomposed" type="image/png" sizes="57x57" href="assets/ico/zi-favicon57x57.png">-->
-    <link rel="shortcut icon" href="assets/ico/favicon.png" />
+    <link rel="shortcut icon" href="/assets/ico/favicon.png" />
   </head>
 
   <body>
@@ -74,7 +74,7 @@ const FOOTER = `</div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.3/jquery.scrollTo.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.2.8/jquery.localScroll.min.js"></script>
-    <script src="assets/js/index.js"></script>
+    <script src="/assets/js/index.js"></script>
   </body>
 </html>
 `;
