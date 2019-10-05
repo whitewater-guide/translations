@@ -1,13 +1,11 @@
 .idea/
-.rpt2_cache/
-declarations/
 node_modules/
 src/
+scripts/
 .gitignore
 .prettierignore
 .prettierrc.yml
 .travis.yml
-release.config.json
-rollup.config.js
+.releaserc.json
 tsconfig.json
 yarn.lock

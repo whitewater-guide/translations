@@ -2,16 +2,13 @@
   "name": "@whitewater-guide/translations",
   "version": "1.3.0",
   "description": "translations for whitewater.guide project",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "react-native": "dist/esm/index.js",
-  "types": "dist/esm/index.d.ts",
+  "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "rollup -c rollup.config.js && rimraf dist/*/*/",
+    "prebuild": "rimraf web mobile assets markdown",
+    "build": "node scripts/json-to-js.js && node scripts/md-to-html.js",
     "prettier": "prettier --config .prettierrc.yml --write \"./**/*.{js,jsx,ts*,md,graphql}\"",
     "prepublishOnly": "yarn build",
     "semantic-release": "semantic-release"
@@ -28,18 +25,12 @@
   "homepage": "https://github.com/whitewater-guide/translations#readme",
   "devDependencies": {
     "@semantic-release/git": "^7.0.16",
-    "i18next": "^17.0.6",
+    "fs-extra": "^8.1.0",
+    "javascript-stringify": "^2.0.0",
+    "markdown-it": "^10.0.0",
+    "markdown-it-attrs": "^3.0.1",
     "prettier": "^1.18.2",
     "rimraf": "^2.6.3",
-    "rollup": "^1.17.0",
-    "rollup-plugin-json": "^4.0.0",
-    "rollup-plugin-string": "^3.0.0",
-    "rollup-plugin-typescript2": "^0.22.1",
-    "semantic-release": "^15.13.18",
-    "tslib": "^1.10.0",
-    "typescript": "^3.5.3"
-  },
-  "peerDependencies": {
-    "i18next": "*"
+    "semantic-release": "^15.13.18"
   }
 }
