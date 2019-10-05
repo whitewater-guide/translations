@@ -1,186 +1,247 @@
 {
-  "iap": {
-    "dialog": {
-      "title": "Obtener {{region}} premium"
-    },
-    "buy": {
-      "confirmButton": {
-        "REFRESHING_PREMIUM": "Comprar por {{precio}}",
-        "REFRESHING_PREMIUM_FAILED": "Reintentar",
-        "PRODUCT_LOADING": "Comprar",
-        "PRODUCT_LOADING_FAILED": "Reintentar",
-        "IDLE": "Comprar por {{precio}}",
-        "PRODUCT_PURCHASING": "Comprar por {{precio}}",
-        "PRODUCT_PURCHASING_FAILED": "Reintentar",
-        "PURCHASE_SAVING": "Comprar por {{precio}}",
-        "PURCHASE_SAVING_OFFLINE": "Reintentar",
-        "PURCHASE_SAVING_FATAL": "OK"
-      },
-      "descriptionMd": "Aprovecha al máximo la guía whitewater.guide para {{región}}\n- Descripciones detalladas de las secciones.\n- Navegue a entradas / salidas con solo un toque\n- Copia las coordenadas de las entradas, salidas y puntos importantes.\n- Descargar datos para uso sin conexión\n"
-    },
-    "alreadyHave": {
-      "message": "Parece que ya tiene su acceso premium a {{region}}"
-    },
-    "auth": {
-      "anon": "Por favor autenticar para proceder",
-      "user": "¡Éxito! Por favor continúe con su compra "
-    },
-    "success": {
-      "subheading": "¡Éxito!",
-      "body": "Ahora tienes acceso a todas las funciones premium en {{región}}"
-    },
-    "errors": {
-      "refreshPremium": "Error al verificar la disponibilidad del producto. Por favor revise su conexion a internet.",
-      "fetchProduct": "Error al obtener el precio del producto. Por favor revise su conexion a internet.",
-      "buyProduct": "Error al comprar el producto. Por favor revise su conexion a internet.",
-      "savePurchase": "No se pudo guardar su compra. Por favor contáctenos. Su ID de transacción fue {{transactionId}}. ",
-      "savePurchaseOffline": "No se pudo guardar su compra. Por favor revise su conexion a internet. Su ID de transacción fue {{transactionId}}. ",
-      "alreadyOwned": "Parece que ya has comprado esta región. Por favor, cierre la sesión e inicie sesión en la cuenta que utilizó para comprarlo. Su ID de transacción fue {{transactionId}}. "
-    },
-    "section": {
-      "message": "{{region}} es una región premium. La descripción completa de esta sección es una característica premium ",
-      "button": "Obtener premium"
-    }
+  "drawer": {
+    "faq": "Preguntas Frecuentes",
+    "signIn": "Iniciar sesión",
+    "regions": "Regiones",
+    "myProfile": "My Perfil",
+    "privacyPolicy": "Política de privacidad",
+    "facebookLogin": "Inicio de sesión con Facebook ",
+    "termsAndConditions": "Términos y condiciones"
   },
   "filter": {
-    "title": "Filtros",
     "reset": "Reiniciar",
-    "difficultyValue": "Dificultad: {{minDiff}}",
-    "difficultyRange": "Dificultad: de {{minDiff}} a {{maxDiff}}",
+    "title": "Filtros",
+    "rating": "Calificación mínima",
+    "search": "Encontrar",
     "durationValue": "Duration: {{minDuration}}",
     "durationRange": "Duración: de {{minDuration}} a {{maxDuration}}",
-    "rating": "Calificación mínima",
-    "search": "Encontrar"
-  },
-  "drawer": {
-    "myProfile": "My Perfil",
-    "signIn": "Iniciar sesión",
-    "facebookLogin": "Inicio de sesión con Facebook ",
-    "regions": "Regiones",
-    "faq": "Preguntas Frecuentes",
-    "termsAndConditions": "Términos y condiciones",
-    "privacyPolicy": "Política de privacidad"
+    "difficultyRange": "Dificultad: de {{minDiff}} a {{maxDiff}}",
+    "difficultyValue": "Dificultad: {{minDiff}}"
   },
   "myProfile": {
     "title": "Mi Perfil",
+    "logout": "Cerrar sesión",
     "general": "General",
     "language": "Idioma",
-    "logout": "Cerrar sesión",
+    "notLoggedIn": "You're not logged in",
     "purchases": {
       "title": "Mis compras",
-      "region": "Región",
-      "group": "Paquete de regiones"
-    },
-    "notLoggedIn": "You're not logged in"
-  },
-  "regionsList": {
-    "title": "Regiones",
-    "riversCount": "Ríos",
-    "sectionsCount": "Secciones",
-    "gaugesCount": "Gauges"
+      "group": "Paquete de regiones",
+      "region": "Región"
+    }
   },
   "region": {
-    "info": {
-      "title": "Acerca de la región",
-      "noData": "No hay descripción para esta región"
-    },
     "map": {
       "title": "Mapa",
-      "selectedSection": {
-        "swipeUpTip": "Desliza hacia arriba para ver más",
-        "details": "Detalles",
-        "flows": "Flujos"
-      },
       "layers": {
+        "hybrid": "Híbrido",
         "prompt": "Por favor seleccione la capa",
-        "standard": "Estándar",
         "terrain": "Terreno",
-        "satellite": "Satélite",
-        "hybrid": "Híbrido"
+        "standard": "Estándar",
+        "satellite": "Satélite"
       },
       "sections": {
         "title": "Secciones",
         "loading": "Cargando secciones: {{cargado}} / {{count}}",
         "loadingUpdates": "Cargando actualizaciones"
+      },
+      "selectedSection": {
+        "flows": "Flujos",
+        "details": "Detalles",
+        "swipeUpTip": "Desliza hacia arriba para ver más"
       }
     },
+    "info": {
+      "title": "Acerca de la región",
+      "noData": "No hay descripción para esta región"
+    },
+    "poiTypes": {
+      "dam": "represa",
+      "gauge": "indicador",
+      "rapid": "rápido",
+      "other": "otro",
+      "bridge": "Puente",
+      "hazard": "peligro",
+      "put-in": "Entrada",
+      "portage": "portage",
+      "playspot": "Playspot",
+      "take-out": "Salida",
+      "waterfall": "cascada",
+      "kayak-shop": "Tienda de kayak",
+      "put-in-alt": "Entrada Alternativo",
+      "power-plant": "planta de energía (liberación de agua)",
+      "put-in-road": "Fin del camino para entrar",
+      "wild-camping": "camping remoto",
+      "paid-camping": "camping pagado",
+      "take-out-alt": "Salida alternativa",
+      "hike-waypoint": "waypoint sendero",
+      "Take-out-road": "Fin del camino para salida",
+      "river-campsite": "camping en el río"
+    },
+    "durations": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Sessions",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Dos veces al día",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Día entero",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Overnighter",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "Multiday"
+    ],
     "section": {
-      "chart": {
-        "title": "Flujos",
-        "periodToggle": {
-          "title": "Seleccionar período",
-          "day": "Día",
-          "week": "Semana",
-          "month": "Mes"
-        },
-        "flowToggle": "Seleccionar medida",
-        "lastRecorded": {
-          "title": "Último grabado",
-          "flow": "Flujo",
-          "level": "Nivel"
-        },
-        "lastUpdated": "Last updated",
-        "approximateWarning": "¡Este indicador da unos datos muy aproximados para este río!",
-        "gaugeMenu": {
-          "title": "Información del indicador",
-          "aboutSource": "Acerca de la fuente de datos",
-          "webPage": "Página web de calibre abierto"
-        },
-        "outdatedWarning": "Este dato probablemente está desactualizado :(",
-        "noData": "No hay datos para este período",
-        "noGauge": "No hay un indicador para esta sección"
+      "map": {
+        "title": "Mapa"
+      },
+      "media": {
+        "blog": "Blogs",
+        "video": "Videos",
+        "photo": "Fotos",
+        "title": "Medios",
+        "noMedia": {
+          "blog": "No hay blogs para esta sección todavía :(",
+          "photo": "No hay fotos para esta sección todavía :(",
+          "video": "No hay videos para esta sección todavía :("
+        }
+      },
+      "info": {
+        "title": "Info"
       },
       "guide": {
         "title": "Descripción",
         "noData": "No hay guía para esta sección todavía ..."
       },
-      "media": {
-        "title": "Medios",
-        "photo": "Fotos",
-        "video": "Videos",
-        "blog": "Blogs",
-        "noMedia": {
-          "photo": "No hay fotos para esta sección todavía :(",
-          "video": "No hay videos para esta sección todavía :(",
-          "blog": "No hay blogs para esta sección todavía :("
+      "chart": {
+        "title": "Flujos",
+        "noData": "No hay datos para este período",
+        "noGauge": "No hay un indicador para esta sección",
+        "flowToggle": "Seleccionar medida",
+        "lastUpdated": "Last updated",
+        "gaugeMenu": {
+          "title": "Información del indicador",
+          "webPage": "Página web de calibre abierto",
+          "aboutSource": "Acerca de la fuente de datos"
+        },
+        "outdatedWarning": "Este dato probablemente está desactualizado :(",
+        "periodToggle": {
+          "day": "Día",
+          "week": "Semana",
+          "title": "Seleccionar período",
+          "month": "Mes"
+        },
+        "lastRecorded": {
+          "flow": "Flujo",
+          "level": "Nivel",
+          "title": "Último grabado"
+        },
+        "approximateWarning": "¡Este indicador da unos datos muy aproximados para este río!"
+      }
+    }
+  },
+  "regionsList": {
+    "title": "Regiones",
+    "gaugesCount": "Gauges",
+    "riversCount": "Ríos",
+    "sectionsCount": "Secciones"
+  },
+  "screens": {
+    "purchase": {
+      "buy": {
+        "title": "Obtener {{region}} premium",
+        "descriptionMd": "Aprovecha al máximo la guía whitewater.guide para {{región}}\n- Descripciones detalladas de las secciones.\n- Navegue a entradas / salidas con solo un toque\n- Copia las coordenadas de las entradas, salidas y puntos importantes.\n- Descargar datos para uso sin conexión\n",
+        "errors": {
+          "savePurchase": "No se pudo guardar su compra. Por favor contáctenos. Su ID de transacción fue {{transactionId}}. ",
+          "fetchProduct": "Error al obtener el precio del producto. Por favor revise su conexion a internet.",
+          "refreshPremium": "Error al verificar la disponibilidad del producto. Por favor revise su conexion a internet.",
+          "requestPurchase": "Error al comprar el producto. Por favor revise su conexion a internet."
         }
       },
-      "map": {
-        "title": "Mapa"
+      "verify": {},
+      "success": {
+        "body": "Ahora tienes acceso a todas las funciones premium en {{región}}",
+        "subheading": "¡Éxito!"
       },
-      "info": {
-        "title": "Info"
+      "alreadyHave": {
+        "message": "Parece que ya tiene su acceso premium a {{region}}"
       }
     },
-    "durations": {
-      "10": "Sessions",
-      "20": "Dos veces al día",
-      "30": "Día entero",
-      "40": "Overnighter",
-      "50": "Multiday"
-    },
-    "poiTypes": {
-      "put-in": "Entrada",
-      "put-in-alt": "Entrada Alternativo",
-      "put-in-road": "Fin del camino para entrar",
-      "take-out": "Salida",
-      "take-out-alt": "Salida alternativa",
-      "Take-out-road": "Fin del camino para salida",
-      "waterfall": "cascada",
-      "rapid": "rápido",
-      "portage": "portage",
-      "playspot": "Playspot",
-      "hazard": "peligro",
-      "river-campsite": "camping en el río",
-      "wild-camping": "camping remoto",
-      "paid-camping": "camping pagado",
-      "gauge": "indicador",
-      "hike-waypoint": "waypoint sendero",
-      "bridge": "Puente",
-      "dam": "represa",
-      "power-plant": "planta de energía (liberación de agua)",
-      "kayak-shop": "Tienda de kayak",
-      "other": "otro"
+    "section": {
+      "guide": {
+        "premiumButton": "Obtener premium",
+        "premiumMessage": "{{region}} es una región premium. La descripción completa de esta sección es una característica premium "
+      }
     }
+  },
+  "durations": {
+    "10": "Sessions",
+    "20": "Dos veces al día",
+    "30": "Día entero",
+    "40": "Overnighter",
+    "50": "Multiday"
+  },
+  "poiTypes": {
+    "put-in": "Entrada",
+    "put-in-alt": "Entrada Alternativo",
+    "put-in-road": "Fin del camino para entrar",
+    "take-out": "Salida",
+    "take-out-alt": "Salida alternativa",
+    "Take-out-road": "Fin del camino para salida",
+    "waterfall": "Cascada",
+    "rapid": "Rápido",
+    "portage": "Portage",
+    "playspot": "Playspot",
+    "hazard": "Peligro",
+    "river-campsite": "Camping en el río",
+    "wild-camping": "Camping remoto",
+    "paid-camping": "Camping pagado",
+    "gauge": "Indicador",
+    "hike-waypoint": "waypoint sendero",
+    "bridge": "Puente",
+    "dam": "Represa",
+    "power-plant": "Planta de energía (liberación de agua)",
+    "kayak-shop": "Tienda de kayak",
+    "other": "Otro"
   }
 }
