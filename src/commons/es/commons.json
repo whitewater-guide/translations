@@ -32,5 +32,6 @@
   "bug": "¡Uy! Algo está roto",
   "premium": "Premium",
   "email": "e-mail",
-  "password": "Contraseña"
+  "password": "Contraseña",
+  "checkConnection": "Por favor revise su conexion a internet"
 }

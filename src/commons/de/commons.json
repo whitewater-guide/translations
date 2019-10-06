@@ -30,5 +30,6 @@
   "offline": "Es scheint als seist du offline...",
   "retry": "Erneut versuchen",
   "bug": "Oops! Irgendetwas ist kaputt",
-  "premium": "Premium"
+  "premium": "Premium",
+  "checkConnection": "Bitte Internetverbindung überprüfen"
 }

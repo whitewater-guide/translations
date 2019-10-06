@@ -148,10 +148,10 @@
           "title": "Get {{region}} premium",
           "descriptionMd": "Take the full advantage of the whitewater.guide for {{region}}\n- Detailed sections descriptions\n- Navigate to put-ins/take-outs with just one tap\n- Copy coordinates of put-ins, take-outs and extra points\n- Download data for offline use\n",
           "errors": {
-            "fetchProduct": "Failed to fetch product price. Please check your internet connection.",
+            "fetchProduct": "Failed to fetch product price.",
             "savePurchase": "Failed to save your purchase. Please contact us. Your transaction id was {{transactionId}}.",
-            "refreshPremium": "Failed to check product availability. Please check your internet connection.",
-            "requestPurchase": "Failed to buy product. Please check your internet connection.",
+            "refreshPremium": "Failed to check product availability.",
+            "requestPurchase": "Failed to buy product.",
             "acknowledge": "Failed to acknowledge your purchase. Please contact us. Your transaction id was {{transactionId}}.",
             "restoreNotFound": "Failed to restore your purchase: product {{ sku }} not found",
             "restoreFailed": "Failed to restore your purchase: couldn't get available purchases",

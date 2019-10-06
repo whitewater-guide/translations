@@ -167,10 +167,10 @@
         "title": "Hol dir {{region}} als Premium",
         "descriptionMd": "Erhalte die kompletten Vorteile des whitewater.guide für {{region}}\n-Detallierte Streckenbeschreibungen\n-mit einem Klick zu den Ein- und Ausstiegen navigieren\n-kopiere die Koordinaten der Ein- und Ausstiege und anderen Stellen\n-lade dir die Daten runter für den Offline-Gebrauch\n",
         "errors": {
-          "fetchProduct": "Abrufen des Produkt-Preises fehlgeschlagen. Bitte Internetverbindung überprüfen.",
+          "fetchProduct": "Abrufen des Produkt-Preises fehlgeschlagen.",
           "savePurchase": "Speichern des Kaufes fehlgeschlagen. Bitte kontaktiere uns. Deine Transaktions-ID war {{transactionId}}.",
-          "refreshPremium": "Verfügbarkeits-Check fehlgeschlagen. Bitte Internetverbindung überprüfen.",
-          "requestPurchase": "Produkt-Kauf fehlgeschlagen. Bitten Internetverbindung überprüfen."
+          "refreshPremium": "Verfügbarkeits-Check fehlgeschlagen.",
+          "requestPurchase": "Produkt-Kauf fehlgeschlagen."
         }
       },
       "verify": {},

@@ -193,9 +193,9 @@
         "descriptionMd": "Aprovecha al máximo la guía whitewater.guide para {{región}}\n- Descripciones detalladas de las secciones.\n- Navegue a entradas / salidas con solo un toque\n- Copia las coordenadas de las entradas, salidas y puntos importantes.\n- Descargar datos para uso sin conexión\n",
         "errors": {
           "savePurchase": "No se pudo guardar su compra. Por favor contáctenos. Su ID de transacción fue {{transactionId}}. ",
-          "fetchProduct": "Error al obtener el precio del producto. Por favor revise su conexion a internet.",
-          "refreshPremium": "Error al verificar la disponibilidad del producto. Por favor revise su conexion a internet.",
-          "requestPurchase": "Error al comprar el producto. Por favor revise su conexion a internet."
+          "fetchProduct": "Error al obtener el precio del producto.",
+          "refreshPremium": "Error al verificar la disponibilidad del producto.",
+          "requestPurchase": "Error al comprar el producto."
         }
       },
       "verify": {},
