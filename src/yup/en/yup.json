@@ -57,5 +57,11 @@
     "file": {
         "tooSmall": "Minimum file size is {{minSize}}",
         "tooLarge": "Maximum file size is {{maxSize}}"
+    },
+    "photo": {
+        "invalidURL": "Failed to upload. Please try again.",
+        "invalidResolution": "Failed to determine image resolution.",
+        "megapixels": "The image must not exceed {{mpx}} megapixels. Please resize it.",
+        "resolution": "The image must be exactly {{width}}x{{height}} pixels in size."
     }
 }
