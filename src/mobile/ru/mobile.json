@@ -95,7 +95,8 @@
       "title": "Секции",
       "loading": "Загружаю секции {{loaded}}/{{count}}",
       "loadingUpdates": "Загружаю обновления"
-    }
+    },
+    "sectionSearchPlaceholder": "Имя секции или реки..."
   },
   "section": {
     "map": {
@@ -157,7 +158,8 @@
     "title": "Регионы",
     "gaugesCount": "Линеек",
     "riversCount": "Рек",
-    "sectionsCount": "Секций"
+    "sectionsCount": "Секций",
+    "regionSearchPlaceholder": "Введите имя региона..."
   },
   "offline": {
     "dialog": {
@@ -166,7 +168,7 @@
       "subtitle": "Для региона: {{region}}",
       "download": "Скачать",
       "mapsError": "Ошибка при загрузке карты. Попробуйте освободить побольше места, удалив другие карты.",
-      "fatalError": "Ошибка загрузки контента.",
+      "downloadError": "Ошибка загрузки контента.",
       "cacheWarning": "* Эти данные могут быть утеряны когда вы разлогиниваетесь или меняете язык приложения",
       "inBackground": "Продолжить в фоне",
       "summaryError": "Ошибка загрузки метаданных.",

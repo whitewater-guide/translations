@@ -41,5 +41,6 @@
   "earlyMonth": "начало {{month, month}}",
   "lateMonth": "конец {{month, month}}",
   "privacyPolicy": "Политика Конфиденциальности",
-  "termsOfService": "Пользовательское соглашение"
+  "termsOfService": "Пользовательское соглашение",
+  "defaultSearchPlaceholder": "Поиск..."
 }

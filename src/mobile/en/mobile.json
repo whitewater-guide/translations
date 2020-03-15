@@ -21,7 +21,7 @@
       "download": "Download",
       "tiles": "tiles",
       "mapsError": "Error while downloading maps. Try to free some space by deleting other offline maps.",
-      "fatalError": "Error while downloading content."
+      "downloadError": "Error while downloading content."
     }
   },
   "filter": {
@@ -289,7 +289,8 @@
     "title": "Regions",
     "gaugesCount": "Gauges",
     "riversCount": "Rivers",
-    "sectionsCount": "Sections"
+    "sectionsCount": "Sections",
+    "regionSearchPlaceholder": "Type region name..."
   },
   "region": {
     "map": {
@@ -319,7 +320,8 @@
       "title": "Sections",
       "loading": "Loading sections: {{loaded}}/{{count}}",
       "loadingUpdates": "Loading updates"
-    }
+    },
+    "sectionSearchPlaceholder": "Type section or river name..."
   },
   "section": {
     "map": {
