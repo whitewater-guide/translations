@@ -1,383 +1,31 @@
 {
   "auth": {
-    "logoutDialogTitle": "Sign Out",
     "logoutDialogMessage": "Are you sure want to sign out?",
-    "logoutErrorTitle": "Error",
-    "logoutErrorMessage": "Could not sign out. Please check your internet connection."
-  },
-  "offline": {
-    "dialog": {
-      "title": "Download for offline use",
-      "subtitle": "Selected region: {{region}}",
-      "categories": {
-        "data": "Detailed sections info *",
-        "media": "Photos {{size, brackets}}",
-        "maps": "Maps {{size, brackets}}"
-      },
-      "cacheWarning": "* This data will be lost when you logout or change language",
-      "loadingSummary": "Loading metadata",
-      "inBackground": "Continue in background",
-      "summaryError": "Error while loading metadata.",
-      "download": "Download",
-      "tiles": "tiles",
-      "mapsError": "Error while downloading maps. Try to free some space by deleting other offline maps.",
-      "downloadError": "Error while downloading content."
-    }
-  },
-  "filter": {
-    "title": "Filters",
-    "reset": "Reset",
-    "difficultyValue": "Difficulty: {{minDiff}}",
-    "difficultyRange": "Difficulty: from {{minDiff}} to {{maxDiff}}",
-    "durationValue": "Duration: {{minDuration}}",
-    "durationRange": "Duration: from {{minDuration}} to {{maxDuration}}",
-    "rating": "Minimal rating",
-    "search": "Show {{count}} section",
-    "search_plural": "Show {{count}} sections"
-  },
-  "errors": {
-    "auth": "Authentication error ({{ id }})",
-    "default": "Something bad happened ({{ id }})",
-    "fetch": "Internet connection error"
+    "logoutDialogTitle": "Sign Out",
+    "logoutErrorMessage": "Could not sign out. Please check your internet connection.",
+    "logoutErrorTitle": "Error"
   },
   "components": {
-    "photoPicker": {
-      "pickerTitle": "Select a photo",
-      "placeholder": "Select a photo",
-      "pickerCamera": "Take photo",
-      "pickerGallery": "Choose from gallery"
-    },
     "PasswordStrengthIndicator": {
       "strength0": "too weak",
       "strength1": "too weak",
       "strength2": "fair",
       "strength3": "good",
       "strength4": "strong"
-    }
-  },
-  "screens": {
-    "auth": {
-      "main": {
-        "local": "Sign up with email",
-        "signin": "Sign In",
-        "facebook": "Sign up with Facebook",
-        "gotAccount": "Already have an account?",
-        "legalNotice": "By creating an account, I accept whitewater.guide's",
-        "legalNotice2": ".",
-        "privacyPolicy": "Privacy Policy",
-        "termsOfService": "Terms Of Service"
-      },
-      "reset": {
-        "title": "Password reset",
-        "goBack": "Go back",
-        "submit": "Change password",
-        "success": "Success! You may now sign in using your new password!",
-        "description": "Please enter new password",
-        "newPassword": "New password",
-        "form": {
-          "expired": "Expired. Please request new password reset e-mail",
-          "not_local": "User registered via social authentication",
-          "invalid_id": "Invalid user id",
-          "unexpected": "No password reset was requested",
-          "token_mismatch": "That was not intended for you"
-        },
-        "password": {
-          "weak": "Password is too weak"
-        },
-        "missingParams": "Some parameters are missing. We have no idea how you got there without them."
-      },
-      "forgot": {
-        "title": "Forgot your password?",
-        "goBack": "Go back",
-        "submit": "Send!",
-        "success": "Success! Please check your e-mail.",
-        "description": "Enter your email and we will send you instructions on how to recover it",
-        "email": {
-          "invalid": "Invalid e-mail",
-          "not_found": "Cannot find user with this e-mail",
-          "send_failed": "Couldn't send an e-mail. Please try again."
-        }
-      },
-      "register": {
-        "name": "Username",
-        "title": "Registration",
-        "submit": "Register",
-        "password": {
-          "weak": "Password is too weak"
-        },
-        "email": {
-          "invalid": "Invalid e-mail address",
-          "missing": "e-mail is required",
-          "unavailable": "This e-mail is already taken"
-        }
-      },
-      "signin": {
-        "submit": "Sign in",
-        "forgot": "Forgot your password?",
-        "facebook": " Sign in with Facebook",
-        "register": "Register",
-        "noAccount": "Don't have an account?",
-        "password": {
-          "error": "Failed to sign in",
-          "mismatch": "Wrong password"
-        },
-        "email": {
-          "not_local": "This e-mail cannot be used to sign-in",
-          "not_found": "e-mail was not found"
-        }
-      },
-      "welcome": {
-        "title": "Hi {{ user }}!",
-        "submit": "Let's go boating!",
-        "description_verified": "You're ready to go.",
-        "description_unverified": "We've sent you a verification e-mail. Verification is only required if you want to purchase premium regions or create content. You can always send new verification e-mail from your account screen."
-      }
     },
-    "myprofile": {
-      "verified": "Verified",
-      "unverified": "Not verified",
-      "verification": {
-        "showMenu": "What's this?",
-        "menuTitle": "Account verification",
-        "menuMessage": "You need to verify your account in order to purchase regions and create content",
-        "requestButton": "Send verification e-mail"
-      }
-    },
-    "purchase": {
-      "buy": {
-        "title": "Get {{region}} premium",
-        "descriptionMd": "Take the full advantage of the whitewater.guide for {{region}}\n- Detailed sections descriptions\n- Navigate to put-ins/take-outs with just one tap\n- Copy coordinates of put-ins, take-outs and extra points\n- Download data for offline use\n",
-        "errors": {
-          "fetchProduct": "Failed to fetch product price.",
-          "savePurchase": "Failed to save your purchase. Please contact us. Your transaction id was {{transactionId}}.",
-          "refreshPremium": "Failed to check product availability.",
-          "requestPurchase": "Failed to buy product.",
-          "acknowledge": "Failed to acknowledge your purchase. Please contact us. Your transaction id was {{transactionId}}.",
-          "restoreNotFound": "Failed to restore your purchase: product {{ sku }} not found",
-          "restoreFailed": "Failed to restore your purchase: couldn't get available purchases",
-          "notFound": "Error: product {{ sku }} not found",
-          "cannotMakePayments": "Error: you cannot make payments"
-        },
-        "confirmButton": {
-          "retry": "Retry",
-          "noPrice": "Buy",
-          "buy": "Buy for {{ price }}"
-        }
-      },
-      "verify": {
-        "email": "Send another e-mail",
-        "refresh": "Refresh",
-        "greeting": "Hi {{ name }}!",
-        "description": "In order to purchase premium region you must verify your account.\n\nAfter you registered, we've sent you an e-mail with verification link. In case you haven't received it, you can request another e-mail."
-      },
-      "success": {
-        "body": "Now you have access to all premium features in {{region}}",
-        "subheading": "Success!"
-      },
-      "alreadyHave": {
-        "message": "It seems that you already have your premium access to {{region}}"
-      }
-    },
-    "addSection": {
-      "tabs": {
-        "main": "Main",
-        "flows": "Flows",
-        "attributes": "Additional",
-        "description": "Description",
-        "photos": "Photos"
-      },
-      "river": {
-        "title": "Select river",
-        "listNoInput": "Type in something first",
-        "listNotFound": "No rivers found",
-        "newSubheader": "Suggest new river",
-        "resultsSubheader": "or select existing river",
-        "searchPlaceholder": "River name",
-        "addItemPlaceholder": "Type in something first"
-      },
-      "gauge": {
-        "title": "Select online gauge",
-        "listNoInput": "Type in something first",
-        "listNotFound": "No online gauges found",
-        "searchPlaceholder": "Online gauge name"
-      },
-      "shape": {
-        "title": "Select location",
-        "dragCta": "move to select",
-        "pressCta": "press to select",
-        "releaseCta": "tap to save"
-      },
-      "headerTitle": "Suggest section",
-      "flows": {
-        "season": "Season notes",
-        "flows": {
-          "imp": "Impossibly high",
-          "max": "Maximum",
-          "opt": "Optimum",
-          "min": "Minimum",
-          "title": "Flows",
-          "formulaLabel": "Formula",
-          "formulaHelper": "e.g. «(x + 1) * 2»"
-        },
-        "flowsText": "Water levels notes",
-        "levels": {
-          "imp": "Impossibly high",
-          "min": "Minimum",
-          "opt": "Optimum",
-          "max": "Maximum",
-          "title": "Levels"
-        },
-        "seasonHelper": "e.g. «during monsoon»",
-        "flowsTextHelper": "e.g. «1-2 days after rainfall»",
-        "gaugePlaceholder": "Online gauge"
-      },
-      "successMessage": "Success! Sent for review",
-      "main": {
-        "nameLabel": "Section name",
-        "riverLabel": "River",
-        "difficultyXtraHelper": "e.g. «V+, X»"
-      },
-      "description": {
-        "label": "Section description"
-      }
-    },
-    "suggestion": {
-      "termsOfUse": "Your content will be subjected to our Terms of Use",
-      "photo": {
-        "title": "Suggest new photo"
-      },
-      "submitPhoto": "Send photo",
-      "submitSimple": "Suggest change",
-      "simple": {
-        "title": "Suggest changes"
-      },
-      "copyrightLabel": "Copyright",
-      "successMessage": "Success! Sent for review",
-      "suggestionLabel": "Suggested changes",
-      "copyrightPlaceholder": "Copyright (optional)",
-      "suggestionPlaceholder": "What do you think we should change or add to this section's description?",
-      "photoDescriptionLabel": "Description",
-      "photoDescriptionPlaceholder": "Optional description. E.g. at what water level was this photo taken."
-    },
-    "section": {
-      "guide": {
-        "premiumButton": "Get premium",
-        "premiumMessage": "{{region}} is a premium region. Full description of this section is a premium feature"
-      }
+    "photoPicker": {
+      "pickerCamera": "Take photo",
+      "pickerGallery": "Choose from gallery",
+      "pickerTitle": "Select a photo",
+      "placeholder": "Select a photo"
     }
   },
   "drawer": {
+    "facebookLogin": "Login with Facebook",
     "faq": "FAQ",
-    "signIn": "Sign In",
-    "regions": "Regions",
     "myProfile": "My Account",
-    "facebookLogin": "Login with Facebook"
-  },
-  "myProfile": {
-    "title": "My Profile",
-    "logout": "Sign out",
-    "general": "General",
-    "language": "Language",
-    "notLoggedIn": "You're not logged in",
-    "purchases": {
-      "title": "My purchases",
-      "group": "Regions pack",
-      "region": "Region"
-    }
-  },
-  "regionsList": {
-    "title": "Regions",
-    "gaugesCount": "Gauges",
-    "riversCount": "Rivers",
-    "sectionsCount": "Sections",
-    "regionSearchPlaceholder": "Type region name..."
-  },
-  "region": {
-    "map": {
-      "title": "Map",
-      "layers": {
-        "prompt": "Please select layer",
-        "hybrid": "Hybrid",
-        "terrain": "Terrain",
-        "standard": "Standard",
-        "satellite": "Satellite"
-      },
-      "selectedSection": {
-        "flows": "Flows",
-        "details": "Details",
-        "swipeUpTip": "Swipe up to see more"
-      }
-    },
-    "info": {
-      "title": "About region",
-      "noData": "No description for this region",
-      "menu": {
-        "title": "Actions",
-        "clipboard": "Copy to clipboard"
-      }
-    },
-    "sections": {
-      "title": "Sections",
-      "loading": "Loading sections: {{loaded}}/{{count}}",
-      "loadingUpdates": "Loading updates"
-    },
-    "sectionSearchPlaceholder": "Type section or river name..."
-  },
-  "section": {
-    "map": {
-      "title": "Map"
-    },
-    "info": {
-      "title": "Info"
-    },
-    "media": {
-      "blog": "Blogs",
-      "photo": "Photos",
-      "title": "Media",
-      "video": "Videos",
-      "noMedia": {
-        "blog": "No blogs for this section yet :(",
-        "video": "No videos for this section yet :(",
-        "photo": "No photos for this section yet :("
-      }
-    },
-    "guide": {
-      "title": "Description",
-      "noData": "No guide for this section yet...",
-      "menu": {
-        "title": "Actions",
-        "clipboard": "Copy to clipboard"
-      }
-    },
-    "chart": {
-      "title": "Flows",
-      "noData": "There is no data for this period",
-      "noGauge": "There is no gauge for this section",
-      "baseGauge": "Based on gauge",
-      "flowToggle": "Select measurement",
-      "lastUpdated": "Last updated",
-      "formulaWarning": "The values displayed here are derived from gauge values using this formula:",
-      "formulaWarning3": "is the raw gauge value",
-      "formulaWarning2": "where",
-      "gaugeMenu": {
-        "title": "Gauge information",
-        "webPage": "Open gauge web page",
-        "aboutSource": "About the data source"
-      },
-      "outdatedWarning": "This data is probably outdated :(",
-      "periodToggle": {
-        "day": "Day",
-        "week": "Week",
-        "title": "Select period",
-        "month": "Month"
-      },
-      "lastRecorded": {
-        "flow": "flow",
-        "level": "level",
-        "title": "Last recorded"
-      },
-      "approximateWarning": "This gauge gives very approximate data for this river!"
-    }
+    "regions": "Regions",
+    "signIn": "Sign In"
   },
   "durations": {
     "10": "Laps",
@@ -386,27 +34,443 @@
     "40": "Overnighter",
     "50": "Multiday"
   },
+  "errors": {
+    "auth": "Authentication error ({{ id }})",
+    "default": "Something bad happened ({{ id }})",
+    "fetch": "Internet connection error"
+  },
+  "filter": {
+    "difficultyRange": "Difficulty: from {{minDiff}} to {{maxDiff}}",
+    "difficultyValue": "Difficulty: {{minDiff}}",
+    "durationRange": "Duration: from {{minDuration}} to {{maxDuration}}",
+    "durationValue": "Duration: {{minDuration}}",
+    "rating": "Minimal rating",
+    "reset": "Reset",
+    "search": "Show {{count}} section",
+    "search_plural": "Show {{count}} sections",
+    "title": "Filters"
+  },
+  "myProfile": {
+    "general": "General",
+    "language": "Language",
+    "logout": "Sign out",
+    "notLoggedIn": "You're not logged in",
+    "purchases": {
+      "group": "Regions pack",
+      "region": "Region",
+      "title": "My purchases"
+    },
+    "title": "My Profile"
+  },
+  "offline": {
+    "dialog": {
+      "cacheWarning": "* This data will be lost when you logout or change language",
+      "categories": {
+        "data": "Detailed sections info *",
+        "maps": "Maps {{size, brackets}}",
+        "media": "Photos {{size, brackets}}"
+      },
+      "download": "Download",
+      "downloadError": "Error while downloading content.",
+      "inBackground": "Continue in background",
+      "loadingSummary": "Loading metadata",
+      "mapsError": "Error while downloading maps. Try to free some space by deleting other offline maps.",
+      "subtitle": "Selected region: {{region}}",
+      "summaryError": "Error while loading metadata.",
+      "tiles": "tiles",
+      "title": "Download for offline use"
+    }
+  },
   "poiTypes": {
-    "dam": "dam",
-    "other": "Other",
-    "gauge": "Gauge",
-    "rapid": "Rapid",
-    "put-in": "Put-in",
     "bridge": "Bridge",
+    "dam": "dam",
+    "gauge": "Gauge",
     "hazard": "Hazard",
-    "portage": "Portage",
-    "take-out": "Take-out",
-    "playspot": "Playspot",
-    "waterfall": "Waterfall",
-    "kayak-shop": "kayak-shop",
-    "put-in-alt": "Alternative put-in",
-    "power-plant": "Power plant (water release)",
-    "put-in-road": "End of road to put-in",
-    "take-out-alt": "Alternative take-out",
-    "wild-camping": "Wild camping",
-    "paid-camping": "Paid camping",
     "hike-waypoint": "Hiking trail waypoint",
+    "kayak-shop": "kayak-shop",
+    "other": "Other",
+    "paid-camping": "Paid camping",
+    "playspot": "Playspot",
+    "portage": "Portage",
+    "power-plant": "Power plant (water release)",
+    "put-in": "Put-in",
+    "put-in-alt": "Alternative put-in",
+    "put-in-road": "End of road to put-in",
+    "rapid": "Rapid",
+    "river-campsite": "River campsite",
+    "take-out": "Take-out",
+    "take-out-alt": "Alternative take-out",
     "take-out-road": "End of road to take-out",
-    "river-campsite": "River campsite"
+    "waterfall": "Waterfall",
+    "wild-camping": "Wild camping"
+  },
+  "region": {
+    "info": {
+      "menu": {
+        "clipboard": "Copy to clipboard",
+        "title": "Actions"
+      },
+      "noData": "No description for this region",
+      "title": "About region"
+    },
+    "map": {
+      "layers": {
+        "hybrid": "Hybrid",
+        "prompt": "Please select layer",
+        "satellite": "Satellite",
+        "standard": "Standard",
+        "terrain": "Terrain"
+      },
+      "selectedSection": {
+        "details": "Details",
+        "flows": "Flows",
+        "swipeUpTip": "Swipe up to see more"
+      },
+      "title": "Map"
+    },
+    "sectionSearchPlaceholder": "Type section or river name...",
+    "sections": {
+      "loading": "Loading sections: {{loaded}}/{{count}}",
+      "loadingUpdates": "Loading updates",
+      "title": "Sections"
+    }
+  },
+  "regionsList": {
+    "gaugesCount": "Gauges",
+    "regionSearchPlaceholder": "Type region name...",
+    "riversCount": "Rivers",
+    "sectionsCount": "Sections",
+    "title": "Regions"
+  },
+  "screens": {
+    "addSection": {
+      "description": {
+        "label": "Section description"
+      },
+      "flows": {
+        "flows": {
+          "formulaHelper": "e.g. «(x + 1) * 2»",
+          "formulaLabel": "Formula",
+          "imp": "Impossibly high",
+          "max": "Maximum",
+          "min": "Minimum",
+          "opt": "Optimum",
+          "title": "Flows"
+        },
+        "flowsText": "Water levels notes",
+        "flowsTextHelper": "e.g. «1-2 days after rainfall»",
+        "gaugePlaceholder": "Online gauge",
+        "levels": {
+          "imp": "Impossibly high",
+          "max": "Maximum",
+          "min": "Minimum",
+          "opt": "Optimum",
+          "title": "Levels"
+        },
+        "season": "Season notes",
+        "seasonHelper": "e.g. «during monsoon»"
+      },
+      "gauge": {
+        "listNoInput": "Type in something first",
+        "listNotFound": "No online gauges found",
+        "searchPlaceholder": "Online gauge name",
+        "title": "Select online gauge"
+      },
+      "headerTitle": "Suggest section",
+      "main": {
+        "difficultyXtraHelper": "e.g. «V+, X»",
+        "nameLabel": "Section name",
+        "riverLabel": "River"
+      },
+      "photo": {
+        "title": "Add photo"
+      },
+      "river": {
+        "addItemPlaceholder": "Type in something first",
+        "listNoInput": "Type in something first",
+        "listNotFound": "No rivers found",
+        "newSubheader": "Suggest new river",
+        "resultsSubheader": "or select existing river",
+        "searchPlaceholder": "River name",
+        "title": "Select river"
+      },
+      "shape": {
+        "dragCta": "move to select",
+        "pressCta": "press to select",
+        "releaseCta": "tap to save",
+        "title": "Select location"
+      },
+      "successMessage": "Success! Sent for review",
+      "tabs": {
+        "attributes": "Additional",
+        "description": "Description",
+        "flows": "Flows",
+        "main": "Main",
+        "photos": "Photos"
+      }
+    },
+    "auth": {
+      "forgot": {
+        "description": "Enter your email and we will send you instructions on how to recover it",
+        "email": {
+          "invalid": "Invalid e-mail",
+          "not_found": "Cannot find user with this e-mail",
+          "send_failed": "Couldn't send an e-mail. Please try again."
+        },
+        "goBack": "Go back",
+        "submit": "Send!",
+        "success": "Success! Please check your e-mail.",
+        "title": "Forgot your password?"
+      },
+      "main": {
+        "facebook": "Sign up with Facebook",
+        "gotAccount": "Already have an account?",
+        "legalNotice": "By creating an account, I accept whitewater.guide's",
+        "legalNotice2": ".",
+        "local": "Sign up with email",
+        "privacyPolicy": "Privacy Policy",
+        "signin": "Sign In",
+        "termsOfService": "Terms Of Service"
+      },
+      "register": {
+        "email": {
+          "invalid": "Invalid e-mail address",
+          "missing": "e-mail is required",
+          "unavailable": "This e-mail is already taken"
+        },
+        "name": "Username",
+        "password": {
+          "weak": "Password is too weak"
+        },
+        "submit": "Register",
+        "title": "Registration"
+      },
+      "reset": {
+        "description": "Please enter new password",
+        "form": {
+          "expired": "Expired. Please request new password reset e-mail",
+          "invalid_id": "Invalid user id",
+          "not_local": "User registered via social authentication",
+          "token_mismatch": "That was not intended for you",
+          "unexpected": "No password reset was requested"
+        },
+        "goBack": "Go back",
+        "missingParams": "Some parameters are missing. We have no idea how you got there without them.",
+        "newPassword": "New password",
+        "password": {
+          "weak": "Password is too weak"
+        },
+        "submit": "Change password",
+        "success": "Success! You may now sign in using your new password!",
+        "title": "Password reset"
+      },
+      "signin": {
+        "email": {
+          "not_found": "e-mail was not found",
+          "not_local": "This e-mail cannot be used to sign-in"
+        },
+        "facebook": " Sign in with Facebook",
+        "forgot": "Forgot your password?",
+        "noAccount": "Don't have an account?",
+        "password": {
+          "error": "Failed to sign in",
+          "mismatch": "Wrong password"
+        },
+        "register": "Register",
+        "submit": "Sign in"
+      },
+      "welcome": {
+        "description_unverified": "We've sent you a verification e-mail. Verification is only required if you want to purchase premium regions or create content. You can always send new verification e-mail from your account screen.",
+        "description_verified": "You're ready to go.",
+        "submit": "Let's go boating!",
+        "title": "Hi {{ user }}!"
+      }
+    },
+    "descent": {
+      "deleteConfirmation": "Are you sure you want to delete this descent?",
+      "headerTitle": "Descent info",
+      "info": {
+        "commentHeader": "My comments",
+        "level": "Level",
+        "startedAt": "Started at"
+      },
+      "menu": {
+        "copy": "Copy to clipboard",
+        "delete": "Delete",
+        "duplicate": "Duplicate",
+        "edit": "Edit",
+        "title": "Actions"
+      },
+      "notFound": "Descent not found"
+    },
+    "descentForm": {
+      "comment": {
+        "commentLabel": "Comment",
+        "commentPlaceholder": "Your comment",
+        "headerTitle": "Add comment",
+        "publicLabel": "Other users can see this"
+      },
+      "createButton": "Create descent",
+      "createSuccessMessage": "Descent created",
+      "date": {
+        "headerTitle": "Select date",
+        "started": {
+          "date": "Date",
+          "time": "Started at"
+        }
+      },
+      "level": {
+        "headerTitle": "Select level",
+        "unitLabel": "Unit",
+        "valueLabel": "Value"
+      },
+      "section": {
+        "headerTitle": "Select section",
+        "listSectionRecent": "Recently descended",
+        "listSectionSearch": "Search results"
+      },
+      "updateButton": "Update descent",
+      "updateSuccessMessage": "Descent updated"
+    },
+    "logbook": {
+      "empty": "Your logbook is empty",
+      "headerTitle": "My Logbook"
+    },
+    "myprofile": {
+      "unverified": "Not verified",
+      "verification": {
+        "menuMessage": "You need to verify your account in order to purchase regions and create content",
+        "menuTitle": "Account verification",
+        "requestButton": "Send verification e-mail",
+        "showMenu": "What's this?"
+      },
+      "verified": "Verified"
+    },
+    "purchase": {
+      "alreadyHave": {
+        "message": "It seems that you already have your premium access to {{region}}"
+      },
+      "buy": {
+        "confirmButton": {
+          "buy": "Buy for {{ price }}",
+          "noPrice": "Buy",
+          "retry": "Retry"
+        },
+        "descriptionMd": "Take the full advantage of the whitewater.guide for {{region}}\n- Detailed sections descriptions\n- Navigate to put-ins/take-outs with just one tap\n- Copy coordinates of put-ins, take-outs and extra points\n- Download data for offline use\n",
+        "errors": {
+          "acknowledge": "Failed to acknowledge your purchase. Please contact us. Your transaction id was {{transactionId}}.",
+          "cannotMakePayments": "Error: you cannot make payments",
+          "fetchProduct": "Failed to fetch product price.",
+          "notFound": "Error: product {{ sku }} not found",
+          "refreshPremium": "Failed to check product availability.",
+          "requestPurchase": "Failed to buy product.",
+          "restoreFailed": "Failed to restore your purchase: couldn't get available purchases",
+          "restoreNotFound": "Failed to restore your purchase: product {{ sku }} not found",
+          "savePurchase": "Failed to save your purchase. Please contact us. Your transaction id was {{transactionId}}."
+        },
+        "title": "Get {{region}} premium"
+      },
+      "success": {
+        "body": "Now you have access to all premium features in {{region}}",
+        "subheading": "Success!"
+      },
+      "verify": {
+        "description": "In order to purchase premium region you must verify your account.\n\nAfter you registered, we've sent you an e-mail with verification link. In case you haven't received it, you can request another e-mail.",
+        "email": "Send another e-mail",
+        "greeting": "Hi {{ name }}!",
+        "refresh": "Refresh"
+      }
+    },
+    "region": {
+      "fab": {
+        "addDescent": "Add descent",
+        "addSection": "Add section"
+      }
+    },
+    "section": {
+      "fab": {
+        "addDescent": "Add descent",
+        "addPhoto": "Add photo",
+        "addSuggestion": "Suggest changes"
+      },
+      "guide": {
+        "premiumButton": "Get premium",
+        "premiumMessage": "{{region}} is a premium region. Full description of this section is a premium feature"
+      }
+    },
+    "suggestion": {
+      "copyrightLabel": "Copyright",
+      "copyrightPlaceholder": "Copyright (optional)",
+      "photo": {
+        "title": "Suggest new photo"
+      },
+      "photoDescriptionLabel": "Description",
+      "photoDescriptionPlaceholder": "Optional description. E.g. at what water level was this photo taken.",
+      "simple": {
+        "title": "Suggest changes"
+      },
+      "submitPhoto": "Send photo",
+      "submitSimple": "Suggest change",
+      "successMessage": "Success! Sent for review",
+      "suggestionLabel": "Suggested changes",
+      "suggestionPlaceholder": "What do you think we should change or add to this section's description?",
+      "termsOfUse": "Your content will be subjected to our Terms of Use"
+    }
+  },
+  "section": {
+    "chart": {
+      "approximateWarning": "This gauge gives very approximate data for this river!",
+      "baseGauge": "Based on gauge",
+      "flowToggle": "Select measurement",
+      "formulaWarning": "The values displayed here are derived from gauge values using this formula:",
+      "formulaWarning2": "where",
+      "formulaWarning3": "is the raw gauge value",
+      "gaugeMenu": {
+        "aboutSource": "About the data source",
+        "title": "Gauge information",
+        "webPage": "Open gauge web page"
+      },
+      "lastRecorded": {
+        "flow": "flow",
+        "level": "level",
+        "title": "Last recorded"
+      },
+      "lastUpdated": "Last updated",
+      "noData": "There is no data for this period",
+      "noGauge": "There is no gauge for this section",
+      "outdatedWarning": "This data is probably outdated :(",
+      "periodToggle": {
+        "day": "Day",
+        "month": "Month",
+        "title": "Select period",
+        "week": "Week"
+      },
+      "title": "Flows"
+    },
+    "guide": {
+      "menu": {
+        "clipboard": "Copy to clipboard",
+        "title": "Actions"
+      },
+      "noData": "No guide for this section yet...",
+      "title": "Description"
+    },
+    "info": {
+      "title": "Info"
+    },
+    "map": {
+      "title": "Map"
+    },
+    "media": {
+      "blog": "Blogs",
+      "noMedia": {
+        "blog": "No blogs for this section yet :(",
+        "photo": "No photos for this section yet :(",
+        "video": "No videos for this section yet :("
+      },
+      "photo": "Photos",
+      "title": "Media",
+      "video": "Videos"
+    }
   }
 }
