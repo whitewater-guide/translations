@@ -17,6 +17,7 @@
   "drawer": {
     "facebookLogin": "Войти через Facebook",
     "faq": "FAQ",
+    "logbook": "Логбук",
     "myProfile": "Мой аккаунт",
     "privacyPolicy": "Политика конфиденциальности",
     "regions": "Регионы",
@@ -250,7 +251,7 @@
       "createSuccessMessage": "Прохождение создано",
       "date": {
         "headerTitle": "Выберите дату",
-        "started": {
+        "startedAt": {
           "date": "Дата",
           "time": "Время старта"
         }

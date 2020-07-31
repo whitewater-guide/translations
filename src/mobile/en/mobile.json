@@ -23,6 +23,7 @@
   "drawer": {
     "facebookLogin": "Login with Facebook",
     "faq": "FAQ",
+    "logbook": "Logbook",
     "myProfile": "My Account",
     "regions": "Regions",
     "signIn": "Sign In"
@@ -314,7 +315,7 @@
       "createSuccessMessage": "Descent created",
       "date": {
         "headerTitle": "Select date",
-        "started": {
+        "startedAt": {
           "date": "Date",
           "time": "Started at"
         }
