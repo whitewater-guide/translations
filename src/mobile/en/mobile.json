@@ -239,6 +239,9 @@
           "missing": "e-mail is required",
           "unavailable": "This e-mail is already taken"
         },
+        "form": {
+          "fetch_error": "Network connection error"
+        },
         "name": "Username",
         "password": {
           "weak": "Password is too weak"
@@ -272,6 +275,9 @@
         },
         "facebook": " Sign in with Facebook",
         "forgot": "Forgot your password?",
+        "form": {
+          "fetch_error": "Network connection error"
+        },
         "noAccount": "Don't have an account?",
         "password": {
           "error": "Failed to sign in",
