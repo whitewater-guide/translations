@@ -258,6 +258,7 @@
       },
       "level": {
         "headerTitle": "Выберите уровень",
+        "unitHelper": "m, cm, m3/s и и.п.",
         "unitLabel": "Единица измерения",
         "valueLabel": "Уровень"
       },

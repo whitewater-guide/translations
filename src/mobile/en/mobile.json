@@ -322,6 +322,7 @@
       },
       "level": {
         "headerTitle": "Select level",
+        "unitHelper": "m, cm, m3/s etc.",
         "unitLabel": "Unit",
         "valueLabel": "Value"
       },
