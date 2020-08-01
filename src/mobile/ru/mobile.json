@@ -250,6 +250,7 @@
       "createButton": "Создать",
       "createSuccessMessage": "Прохождение создано",
       "date": {
+        "futureWarning": "Возможно, эта дата в будущем",
         "headerTitle": "Выберите дату",
         "startedAt": {
           "date": "Дата",

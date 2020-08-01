@@ -314,6 +314,7 @@
       "createButton": "Create descent",
       "createSuccessMessage": "Descent created",
       "date": {
+        "futureWarning": "This date is probably in the future",
         "headerTitle": "Select date",
         "startedAt": {
           "date": "Date",
