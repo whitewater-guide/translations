@@ -334,7 +334,9 @@
         "valueLabel": "Value"
       },
       "section": {
+        "createSectionItem": "Create new section",
         "headerTitle": "Select section",
+        "listSectionNew": "New",
         "listSectionRecent": "Recently descended",
         "listSectionSearch": "Search results"
       },

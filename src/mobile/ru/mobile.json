@@ -270,7 +270,9 @@
         "valueLabel": "Уровень"
       },
       "section": {
+        "createSectionItem": "Создать новую секцию",
         "headerTitle": "Выберите секцию",
+        "listSectionNew": "Новая секция",
         "listSectionRecent": "Недавно пройденные",
         "listSectionSearch": "Результаты поиска"
       },
