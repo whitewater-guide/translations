@@ -72,12 +72,12 @@
         "media": "Photos {{size, brackets}}"
       },
       "download": "Download",
-      "downloadError": "Error while downloading content.",
+      "downloadError": "Error while downloading content",
       "inBackground": "Continue in background",
       "loadingSummary": "Loading metadata",
-      "mapsError": "Error while downloading maps. Try to free some space by deleting other offline maps.",
       "subtitle": "Selected region: {{region}}",
       "summaryError": "Error while loading metadata.",
+      "tileLimitError": "Maximum map size limit exceeded. Please delete some other offline maps",
       "tiles": "tiles",
       "title": "Download for offline use"
     }
