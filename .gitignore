@@ -5,5 +5,5 @@ dist/
 assets/
 web/
 mobile/
-markdown/
+/markdown/
 yarn-error.log
