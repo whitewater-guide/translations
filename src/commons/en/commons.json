@@ -34,6 +34,7 @@
   "min": "min",
   "miscTags": "Misc",
   "navigate": "Navigate",
+  "networkError": "Network error. Please check your Internet connection",
   "no": "No",
   "offline": "It appears that you're offline...",
   "ok": "OK",
