@@ -5,6 +5,7 @@ We've run a crowdfunding campaign in June 2019. We would like to thank all of yo
 - ![](/assets/img/backers/100/benoit_renaud.png) Benoit Renaud
 - ![](/assets/img/backers/100/kievkayaks.png) [KievKayaks](https://kievkayaks.com/)
 - ![](/assets/img/backers/100/the_lammlers.png) [The Lammlers](https://www.facebook.com/thelammlers/)
+- ![](/assets/img/backers/100/quebec.jpg) [Club de Canoe-Kayak d'Eau-Vive de Montréal](https://www.cckevm.org/)
 
 - Anastasia Smyshliaeva
 - Angus McDonald
