@@ -13,6 +13,11 @@
       "strength3": "good",
       "strength4": "strong"
     },
+    "license": {
+      "media": "Information is available under {{ name }}",
+      "region": "All the information in this region is available under {{ name }}, unless stated otherwise",
+      "section": "All the information about this section is available under {{ name }}, unless stated otherwise"
+    },
     "photoPicker": {
       "pickerCamera": "Take photo",
       "pickerGallery": "Choose from gallery",
@@ -111,7 +116,7 @@
         "clipboard": "Copy to clipboard",
         "title": "Actions"
       },
-      "noData": "No description for this region",
+      "noData": "No description of this region is available yet...",
       "title": "About region"
     },
     "map": {
