@@ -348,6 +348,9 @@
       "updateButton": "Update descent",
       "updateSuccessMessage": "Descent updated"
     },
+    "license": {
+      "headerTitle": "License info"
+    },
     "logbook": {
       "empty": "Your logbook is empty",
       "headerTitle": "My Logbook"
@@ -466,6 +469,7 @@
     "guide": {
       "menu": {
         "clipboard": "Copy to clipboard",
+        "license": "License info",
         "title": "Actions"
       },
       "noData": "No guide for this section yet...",

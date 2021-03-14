@@ -284,6 +284,9 @@
       "updateButton": "Сохранить изменения",
       "updateSuccessMessage": "Прохождение отредактировано"
     },
+    "license": {
+      "headerTitle": "О лицензии"
+    },
     "logbook": {
       "empty": "Ваш логбук пуст",
       "headerTitle": "Мой логбук"
@@ -374,6 +377,7 @@
     "guide": {
       "menu": {
         "clipboard": "Скопировать",
+        "license": "О лицензии",
         "title": "Действия"
       },
       "noData": "Для этой секции описание пока не добавлено...",
