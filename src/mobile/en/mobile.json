@@ -14,7 +14,7 @@
       "strength4": "strong"
     },
     "license": {
-      "media": "Information is available under {{ name }}",
+      "media": "{{ name }}",
       "region": "All the information in this region is available under {{ name }}, unless stated otherwise",
       "section": "All the information about this section is available under {{ name }}, unless stated otherwise"
     },
