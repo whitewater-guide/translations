@@ -460,6 +460,7 @@
       "outdatedWarning": "This data is probably outdated :(",
       "periodToggle": {
         "day": "Day",
+        "3days": "3 days",
         "month": "Month",
         "title": "Select period",
         "week": "Week"
