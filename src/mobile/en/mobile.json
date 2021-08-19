@@ -406,6 +406,10 @@
         "addSection": "Add section"
       }
     },
+    "regionsList": {
+      "all": "All regions",
+      "favorites": "Favorite regions"
+    },
     "section": {
       "fab": {
         "addDescent": "Add descent",
@@ -459,8 +463,8 @@
       "noGauge": "There is no gauge for this section",
       "outdatedWarning": "This data is probably outdated :(",
       "periodToggle": {
-        "day": "Day",
         "3days": "3 days",
+        "day": "Day",
         "month": "Month",
         "title": "Select period",
         "week": "Week"
