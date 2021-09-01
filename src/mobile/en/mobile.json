@@ -404,6 +404,10 @@
       "fab": {
         "addDescent": "Add descent",
         "addSection": "Add section"
+      },
+      "sectionsList": {
+        "all": "All sections",
+        "favorites": "My sections"
       }
     },
     "regionsList": {

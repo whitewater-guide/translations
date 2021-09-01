@@ -330,11 +330,15 @@
       "fab": {
         "addDescent": "Добавить прохождение",
         "addSection": "Добавить секцию"
+      },
+      "sectionsList": {
+        "all": "Все секции",
+        "favorites": "Мои секции"
       }
     },
     "regionsList": {
       "all": "Все регионы",
-      "favorites": "Избранные регионы"
+      "favorites": "Мои регионы"
     },
     "section": {
       "fab": {
