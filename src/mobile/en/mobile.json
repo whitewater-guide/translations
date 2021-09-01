@@ -318,7 +318,6 @@
     "descentForm": {
       "comment": {
         "commentLabel": "Comment",
-        "commentPlaceholder": "Your comment",
         "headerTitle": "Add comment",
         "publicLabel": "Other users can see this"
       },

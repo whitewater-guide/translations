@@ -254,7 +254,6 @@
     "descentForm": {
       "comment": {
         "commentLabel": "Комментарии",
-        "commentPlaceholder": "Ваши комментарии",
         "headerTitle": "Добавить комментарии",
         "publicLabel": "Показывать другим пользователям"
       },
