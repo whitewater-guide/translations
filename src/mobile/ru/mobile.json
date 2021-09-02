@@ -332,7 +332,8 @@
       },
       "sectionsList": {
         "all": "Все секции",
-        "favorites": "Мои секции"
+        "favorites": "Мои секции",
+        "swipeableTip": "Сеции можно сдвигать влево"
       }
     },
     "regionsList": {

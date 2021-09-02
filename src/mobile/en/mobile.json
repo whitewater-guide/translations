@@ -406,7 +406,8 @@
       },
       "sectionsList": {
         "all": "All sections",
-        "favorites": "My sections"
+        "favorites": "My sections",
+        "swipeableTip": "Sections can be swiped left"
       }
     },
     "regionsList": {
