@@ -236,6 +236,7 @@
     },
     "descent": {
       "deleteConfirmation": "Вы действительно хотите удалить это прохождение?",
+      "deleteSuccess": "Прохождение удалено",
       "headerTitle": "Прохождение",
       "info": {
         "commentHeader": "Комментарии",
