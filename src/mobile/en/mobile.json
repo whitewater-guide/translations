@@ -41,8 +41,8 @@
     "50": "Multiday"
   },
   "errors": {
-    "auth": "Authentication error ({{ id }})",
-    "default": "Something bad happened ({{ id }})",
+    "auth": "Authentication error",
+    "default": "Something bad happened",
     "fetch": "Internet connection error"
   },
   "filter": {
