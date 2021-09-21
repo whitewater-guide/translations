@@ -41,8 +41,8 @@
     "50": "Multiday"
   },
   "errors": {
-    "auth": "Authentication error ({{ id }})",
-    "default": "Something bad happened ({{ id }})",
+    "auth": "Authentication error",
+    "default": "Something bad happened",
     "fetch": "Internet connection error"
   },
   "filter": {
@@ -300,6 +300,7 @@
     },
     "descent": {
       "deleteConfirmation": "Are you sure you want to delete this descent?",
+      "deleteSuccess": "Descent deleted",
       "headerTitle": "Descent info",
       "info": {
         "commentHeader": "My comments",
@@ -406,12 +407,13 @@
       },
       "sectionsList": {
         "all": "All sections",
-        "favorites": "My sections"
+        "favorites": "My sections",
+        "swipeableTip": "Sections can be swiped left"
       }
     },
     "regionsList": {
       "all": "All regions",
-      "favorites": "Favorite regions"
+      "favorites": "My regions"
     },
     "section": {
       "fab": {
