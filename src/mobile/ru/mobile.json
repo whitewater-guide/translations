@@ -147,8 +147,69 @@
   },
   "screens": {
     "addSection": {
+      "description": {
+        "label": "Описание секции"
+      },
+      "flows": {
+        "flows": {
+          "formulaHelper": "например «(x + 1) * 2»",
+          "formulaLabel": "Формула",
+          "imp": "Выше нельзя",
+          "max": "Максимум",
+          "min": "Минимум",
+          "opt": "Оптимум",
+          "title": "Расход воды"
+        },
+        "flowsText": "Описание уровней воды",
+        "flowsTextHelper": "например «1-2 дня после дождей»",
+        "gaugePlaceholder": "Онлайн линейка",
+        "levels": {
+          "imp": "Выше нельзя",
+          "max": "Максимум",
+          "min": "Минимум",
+          "opt": "Оптимум",
+          "title": "Уровень воды"
+        },
+        "season": "Описаниие сезонностей",
+        "seasonHelper": "например «во время муссона»"
+      },
+      "gauge": {
+        "listNoInput": "Напечатайте что-нибудь",
+        "listNotFound": "Ничего не найдено",
+        "searchPlaceholder": "Имя онлайн линейки",
+        "title": "Выберите онлайн линейку"
+      },
+      "headerTitle": "Добавление сеции",
+      "main": {
+        "difficultyXtraHelper": "например «V+, X»",
+        "nameLabel": "Имя секции",
+        "riverLabel": "Река"
+      },
       "photo": {
         "title": "Добавление фото"
+      },
+      "river": {
+        "addItemPlaceholder": "Добавить новую реку",
+        "listNoInput": "Напечатайте что-нибудь",
+        "listNotFound": "Ничего не найден",
+        "newSubheader": "Предложите новую реку",
+        "resultsSubheader": "Выберите существующую реку",
+        "searchPlaceholder": "Название реки",
+        "title": "Выбор реки"
+      },
+      "shape": {
+        "dragCta": "тащите чтобы выбрать",
+        "pressCta": "нажмите чтобы выбрать",
+        "releaseCta": "нажмите чтобы сохранить",
+        "title": "Выберите старт и финиш"
+      },
+      "successMessage": "Успех! Секция отправлена на модерацию",
+      "tabs": {
+        "attributes": "Дополнительно",
+        "description": "Описаниие",
+        "flows": "Уровни",
+        "main": "Главное",
+        "photos": "Фото"
       }
     },
     "auth": {

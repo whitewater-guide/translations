@@ -192,11 +192,11 @@
         "title": "Add photo"
       },
       "river": {
-        "addItemPlaceholder": "Type in something first",
+        "addItemPlaceholder": "Add new river",
         "listNoInput": "Type in something first",
         "listNotFound": "No rivers found",
         "newSubheader": "Suggest new river",
-        "resultsSubheader": "or select existing river",
+        "resultsSubheader": "Select existing river",
         "searchPlaceholder": "River name",
         "title": "Select river"
       },
