@@ -329,7 +329,8 @@
         "headerTitle": "Select date",
         "startedAt": {
           "date": "Date",
-          "time": "Started at"
+          "time": "Started at",
+          "timezone": "Time Zone"
         }
       },
       "level": {
