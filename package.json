@@ -1,6 +1,6 @@
 {
   "name": "@whitewater-guide/translations",
-  "version": "2.5.11",
+  "version": "2.5.12",
   "description": "translations for whitewater.guide project",
   "main": "index.js",
   "publishConfig": {
