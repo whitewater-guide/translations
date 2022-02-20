@@ -298,6 +298,31 @@
         "title": "Hi {{ user }}!"
       }
     },
+    "chat": {
+      "inputPlaceholder": "Type in your comment",
+      "loadOlder": "Load more",
+      "message": {
+        "actionsheet": {
+          "copy": {
+            "title": "Copy to clipboard"
+          },
+          "delete": {
+            "title": "Delete this comment"
+          },
+          "report": {
+            "error": "Error while sending report",
+            "sent": "Report sent",
+            "title": "Report this comment"
+          },
+          "title": "Actions"
+        },
+        "deleted": "Comment deleted"
+      },
+      "roomStart": {
+        "empty": "No comments here",
+        "nonEmpty": "No more comments here"
+      }
+    },
     "descent": {
       "deleteConfirmation": "Are you sure you want to delete this descent?",
       "deleteSuccess": "Descent deleted",
@@ -417,14 +442,77 @@
       "favorites": "My regions"
     },
     "section": {
+      "chart": {
+        "approximateWarning": "This gauge gives very approximate data for this river!",
+        "baseGauge": "Based on gauge",
+        "flowToggle": "Select measurement",
+        "formulaWarning": "The values displayed here are derived from gauge values using this formula:",
+        "formulaWarning2": "where",
+        "formulaWarning3": "is the raw gauge value",
+        "gaugeMenu": {
+          "aboutSource": "About the data source",
+          "title": "Gauge information",
+          "webPage": "Open gauge web page"
+        },
+        "lastRecorded": {
+          "flow": "flow",
+          "level": "level",
+          "title": "Last recorded"
+        },
+        "lastUpdated": "Last updated",
+        "noData": "There is no data for this period",
+        "noGauge": "There is no gauge for this section",
+        "outdatedWarning": "This data is probably outdated :(",
+        "periodToggle": {
+          "3days": "3 days",
+          "day": "Day",
+          "month": "Month",
+          "title": "Select period",
+          "week": "Week"
+        },
+        "title": "Flows"
+      },
       "fab": {
         "addDescent": "Add descent",
         "addPhoto": "Add photo",
         "addSuggestion": "Suggest changes"
       },
-      "guide": {
-        "premiumButton": "Get premium",
-        "premiumMessage": "{{region}} is a premium region. Full description of this section is a premium feature"
+      "info": {
+        "description": {
+          "noData": "No guide for this section yet...",
+          "premiumButton": "Get premium",
+          "premiumMessage": "{{region}} is a premium region. Full description of this section is a premium feature"
+        },
+        "descriptionBlock": "Description",
+        "infoBlock": "General info",
+        "menu": {
+          "clipboard": "Copy to clipboard",
+          "favorite": {
+            "add": "Add to favorites",
+            "remove": "Remove from favorites"
+          },
+          "license": "License info",
+          "title": "Actions"
+        },
+        "tableCollapsible": {
+          "less": "Show less",
+          "more": "Show more"
+        },
+        "title": "Info"
+      },
+      "map": {
+        "title": "Map"
+      },
+      "media": {
+        "blog": "Blogs",
+        "noMedia": {
+          "blog": "No blogs for this section yet :(",
+          "photo": "No photos for this section yet :(",
+          "video": "No videos for this section yet :("
+        },
+        "photo": "Photos",
+        "title": "Media",
+        "video": "Videos"
       }
     },
     "suggestion": {
@@ -444,64 +532,6 @@
       "suggestionLabel": "Suggested changes",
       "suggestionPlaceholder": "What do you think we should change or add to this section's description?",
       "termsOfUse": "Your content will be subjected to our Terms of Use"
-    }
-  },
-  "section": {
-    "chart": {
-      "approximateWarning": "This gauge gives very approximate data for this river!",
-      "baseGauge": "Based on gauge",
-      "flowToggle": "Select measurement",
-      "formulaWarning": "The values displayed here are derived from gauge values using this formula:",
-      "formulaWarning2": "where",
-      "formulaWarning3": "is the raw gauge value",
-      "gaugeMenu": {
-        "aboutSource": "About the data source",
-        "title": "Gauge information",
-        "webPage": "Open gauge web page"
-      },
-      "lastRecorded": {
-        "flow": "flow",
-        "level": "level",
-        "title": "Last recorded"
-      },
-      "lastUpdated": "Last updated",
-      "noData": "There is no data for this period",
-      "noGauge": "There is no gauge for this section",
-      "outdatedWarning": "This data is probably outdated :(",
-      "periodToggle": {
-        "3days": "3 days",
-        "day": "Day",
-        "month": "Month",
-        "title": "Select period",
-        "week": "Week"
-      },
-      "title": "Flows"
-    },
-    "guide": {
-      "menu": {
-        "clipboard": "Copy to clipboard",
-        "license": "License info",
-        "title": "Actions"
-      },
-      "noData": "No guide for this section yet...",
-      "title": "Description"
-    },
-    "info": {
-      "title": "Info"
-    },
-    "map": {
-      "title": "Map"
-    },
-    "media": {
-      "blog": "Blogs",
-      "noMedia": {
-        "blog": "No blogs for this section yet :(",
-        "photo": "No photos for this section yet :(",
-        "video": "No videos for this section yet :("
-      },
-      "photo": "Photos",
-      "title": "Media",
-      "video": "Videos"
     }
   }
 }
