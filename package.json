@@ -26,7 +26,7 @@
   "devDependencies": {
     "fs-extra": "^10.1.0",
     "javascript-stringify": "^2.1.0",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-attrs": "^3.0.1",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2"
