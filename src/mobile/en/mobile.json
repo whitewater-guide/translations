@@ -56,18 +56,6 @@
     "search_plural": "Show {{count}} sections",
     "title": "Filters"
   },
-  "myProfile": {
-    "general": "General",
-    "language": "Language",
-    "logout": "Sign out",
-    "notLoggedIn": "You're not logged in",
-    "purchases": {
-      "group": "Regions pack",
-      "region": "Region",
-      "title": "My purchases"
-    },
-    "title": "My Profile"
-  },
   "offline": {
     "dialog": {
       "cacheWarning": "* This data will be lost when you logout or change language",
@@ -382,6 +370,28 @@
       "headerTitle": "My Logbook"
     },
     "myprofile": {
+      "deleteProfileDialog": {
+        "message": "All your logbook entries and comments will be deleted. All sections and media submitted by you will become anonymous",
+        "title": "Please confirm profile deletion"
+      },
+      "deletedProfileDialog": {
+        "message": "Your profile has been deleted",
+        "title": "Goodbye"
+      },
+      "general": "General",
+      "language": "Language",
+      "logout": "Sign out",
+      "menu": {
+        "deleteProfile": "Delete my profile",
+        "title": "Profile actions"
+      },
+      "notLoggedIn": "You're not logged in",
+      "purchases": {
+        "group": "Regions pack",
+        "region": "Region",
+        "title": "My purchases"
+      },
+      "title": "My Profile",
       "unverified": "Not verified",
       "verification": {
         "menuMessage": "You need to verify your account in order to purchase regions and create content",

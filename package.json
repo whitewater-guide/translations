@@ -24,13 +24,11 @@
   },
   "homepage": "https://github.com/whitewater-guide/translations#readme",
   "devDependencies": {
-    "@semantic-release/git": "^7.0.16",
-    "fs-extra": "^8.1.0",
-    "javascript-stringify": "^2.0.0",
+    "fs-extra": "^10.1.0",
+    "javascript-stringify": "^2.1.0",
     "markdown-it": "^10.0.0",
     "markdown-it-attrs": "^3.0.1",
-    "prettier": "^1.18.2",
-    "rimraf": "^2.6.3",
-    "semantic-release": "^15.13.18"
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2"
   }
 }
