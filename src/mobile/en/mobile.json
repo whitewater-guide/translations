@@ -291,6 +291,11 @@
       "loadOlder": "Load more",
       "message": {
         "actionsheet": {
+          "blockUser": {
+            "error": "Error while blocking user",
+            "sent": "User is now blocked",
+            "title": "Block this user"
+          },
           "copy": {
             "title": "Copy to clipboard"
           },
