@@ -217,7 +217,6 @@
         "title": "Forgot your password?"
       },
       "main": {
-        "facebook": "Sign up with Facebook",
         "gotAccount": "Already have an account?",
         "legalNotice": "By creating an account, I accept whitewater.guide's",
         "legalNotice2": ".",
@@ -266,7 +265,6 @@
           "not_found": "e-mail was not found",
           "not_local": "This e-mail cannot be used to sign-in"
         },
-        "facebook": " Sign in with Facebook",
         "forgot": "Forgot your password?",
         "form": {
           "fetch_error": "Network connection error"
@@ -277,7 +275,11 @@
           "mismatch": "Wrong password"
         },
         "register": "Register",
+        "social": "Other options",
         "submit": "Sign in"
+      },
+      "social": {
+        "facebook": " Sign in with Facebook"
       },
       "welcome": {
         "description_unverified": "We've sent you a verification e-mail. Verification is only required if you want to purchase premium regions or create content. You can always send new verification e-mail from your account screen.",
