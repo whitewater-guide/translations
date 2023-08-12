@@ -318,6 +318,25 @@
         "nonEmpty": "No more comments here"
       }
     },
+    "connectEmail": {
+      "emailHelper": "Use the email address to which the code was sent",
+      "headerTitle": "Connect email",
+      "password": "Enter new password",
+      "submit": "Connect",
+      "token": "Confirmation code",
+      "tokenHelper": "Enter the code which was sent to your email"
+    },
+    "connectEmailRequest": {
+      "connectEmailRequest": "To enable login with email and password, please enter your email here. A confirmation message with instructions will be sent to this address",
+      "gotToken": "I already have a code",
+      "headerTitle": "Connect email",
+      "submit": "Connect"
+    },
+    "connectEmailSuccess": {
+      "description": "Now you can log in into whitewater.guide using your email address {{email}} and password",
+      "submit": "Go back",
+      "title": "Congratulatiions, {{name}}!"
+    },
     "descent": {
       "deleteConfirmation": "Are you sure you want to delete this descent?",
       "deleteSuccess": "Descent deleted",
@@ -389,6 +408,7 @@
       "language": "Language",
       "logout": "Sign out",
       "menu": {
+        "connectEmail": "Connecr email address",
         "deleteProfile": "Delete my profile",
         "title": "Profile actions"
       },
