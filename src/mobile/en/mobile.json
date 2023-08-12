@@ -327,7 +327,7 @@
       "tokenHelper": "Enter the code which was sent to your email"
     },
     "connectEmailRequest": {
-      "connectEmailRequest": "To enable login with email and password, please enter your email here. A confirmation message with instructions will be sent to this address",
+      "emailHelper": "To enable login with email and password, please enter your email here. A confirmation message with instructions will be sent to this address",
       "gotToken": "I already have a code",
       "headerTitle": "Connect email",
       "submit": "Connect"
@@ -408,7 +408,7 @@
       "language": "Language",
       "logout": "Sign out",
       "menu": {
-        "connectEmail": "Connecr email address",
+        "connectEmail": "Connect email address",
         "deleteProfile": "Delete my profile",
         "title": "Profile actions"
       },
