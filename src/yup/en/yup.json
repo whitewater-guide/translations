@@ -1,67 +1,70 @@
 {
-    "mixed": {
-        "default": "Invalid value",
-        "required": "This field is required",
-        "oneOf": "Must be one of following: {{ values }}",
-        "notOneOf": "Must not be one of following: {{ values }}",
-        "noType": "Must not be {{ type }}",
-        "defined": "Value must be defined",
-        "newNode": "Invalid existing or new node reference"
-    },
-    "string": {
-        "length": "Must be exactly {{ length }} symbols long",
-        "min": "Must be at least {{ min }} symbols long",
-        "max": "Must be at most {{ max }} symbols long",
-        "matches": "Invalid string",
-        "email": "Invalid e-mail address",
-        "url": "Invalid URL",
-        "trim": "Must not start or end with spaces",
-        "lowercase": "Must be a lowercase string",
-        "uppercase": "Must be an uppercase string",
-        "weak_password": "Password is too weak",
-        "cron": "Invalid cron expression",
-        "formula": "Invalid formula",
-        "https": "The URL must use HTTPS protocol",
-        "json": "Invalid JSON string",
-        "nonEmpty": "The string must not be empty",
-        "sku": "Invalid SKU identifier",
-        "uuid": "Invalid UUID"
-    },
-    "number": {
-        "min": "Must be greater than or equal to {{ min }}",
-        "max": "Must be less than or equal to {{ max }}",
-        "lessThan": "Must be less than {{ less }}",
-        "moreThan": "Must be greater than {{ more }}",
-        "notEqual": "Must not be equal to {{ notEqual }}",
-        "positive": "Must be a positive number",
-        "negative": "Must be a negative number",
-        "integer": "Must be an integer",
-        "altitude": "Invalid altitude value",
-        "latitude": "Invalid latitude value",
-        "longitude": "Invalid longitude value"
+    "array": {
+        "max": "Must have at most to {{ max }} items",
+        "min": "Must have at least {{ min }} items"
     },
     "date": {
-        "min": "Must be later than {{ min }}",
-        "max": "Must be earlier than {{ max }}"
+        "max": "Must be earlier than {{ max }}",
+        "min": "Must be later than {{ min }}"
+    },
+    "file": {
+        "tooLarge": "Maximum file size is {{maxSize}}",
+        "tooSmall": "Minimum file size is {{minSize}}"
+    },
+    "mixed": {
+        "default": "Invalid value",
+        "defined": "Value must be defined",
+        "newNode": "Invalid existing or new node reference",
+        "noType": "Must not be {{ type }}",
+        "notOneOf": "Must not be one of following: {{ values }}",
+        "oneOf": "Must be one of following: {{ values }}",
+        "required": "This field is required"
+    },
+    "number": {
+        "altitude": "Invalid altitude value",
+        "integer": "Must be an integer",
+        "latitude": "Invalid latitude value",
+        "lessThan": "Must be less than {{ less }}",
+        "longitude": "Invalid longitude value",
+        "max": "Must be less than or equal to {{ max }}",
+        "min": "Must be greater than or equal to {{ min }}",
+        "moreThan": "Must be greater than {{ more }}",
+        "negative": "Must be a negative number",
+        "notEqual": "Must not be equal to {{ notEqual }}",
+        "positive": "Must be a positive number"
     },
     "object": {
         "noUnknown": "Cannot have keys not specified in the object shape"
     },
-    "array": {
-        "min": "Must have at least {{ min }} items",
-        "max": "Must have at most to {{ max }} items"
+    "photo": {
+        "invalidResolution": "Failed to determine image resolution.",
+        "invalidURL": "Failed to upload. Please try again.",
+        "megapixels": "The image must not exceed {{mpx}} megapixels. Please resize it.",
+        "resolution": "The image must be exactly {{width}}x{{height}} pixels in size."
+    },
+    "string": {
+        "cron": "Invalid cron expression",
+        "email": "Invalid e-mail address",
+        "emailTaken": "This e-mail cannot be used",
+        "formula": "Invalid formula",
+        "https": "The URL must use HTTPS protocol",
+        "json": "Invalid JSON string",
+        "length": "Must be exactly {{ length }} symbols long",
+        "lowercase": "Must be a lowercase string",
+        "matches": "Invalid string",
+        "max": "Must be at most {{ max }} symbols long",
+        "min": "Must be at least {{ min }} symbols long",
+        "nonEmpty": "The string must not be empty",
+        "sku": "Invalid SKU identifier",
+        "tokenExpired": "Token expired",
+        "tokenInvalid": "Invalid token",
+        "trim": "Must not start or end with spaces",
+        "uppercase": "Must be an uppercase string",
+        "url": "Invalid URL",
+        "uuid": "Invalid UUID",
+        "weak_password": "Password is too weak"
     },
     "varchar": {
         "nonEmpty": "The value must not be empty or longer than 255 characters"
-    },
-    "file": {
-        "tooSmall": "Minimum file size is {{minSize}}",
-        "tooLarge": "Maximum file size is {{maxSize}}"
-    },
-    "photo": {
-        "invalidURL": "Failed to upload. Please try again.",
-        "invalidResolution": "Failed to determine image resolution.",
-        "megapixels": "The image must not exceed {{mpx}} megapixels. Please resize it.",
-        "resolution": "The image must be exactly {{width}}x{{height}} pixels in size."
     }
 }
