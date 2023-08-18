@@ -335,7 +335,7 @@
     "connectEmailSuccess": {
       "description": "Now you can log in into whitewater.guide using your email address {{email}} and password",
       "submit": "Go back",
-      "title": "Congratulatiions, {{name}}!"
+      "title": "Congratulations!"
     },
     "descent": {
       "deleteConfirmation": "Are you sure you want to delete this descent?",
