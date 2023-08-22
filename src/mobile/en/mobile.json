@@ -211,6 +211,9 @@
           "not_found": "Cannot find user with this e-mail",
           "send_failed": "Couldn't send an e-mail. Please try again."
         },
+        "form": {
+          "not_local": "User registered via social authentication"
+        },
         "goBack": "Go back",
         "submit": "Send!",
         "success": "Success! Please check your e-mail.",
