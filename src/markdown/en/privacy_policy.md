@@ -69,7 +69,13 @@ Whitewater guide app may process your Personal Data because:
 
 ## Data Retention Policy, Managing Your Information
 
-We will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. We will retain Automatically Collected information for the time needed and thereafter may store it in aggregate. If you’d like us to delete User Provided Data that you have provided via the Application, please contact us at [info@whitewater.guide](info@whitewater.guide) and we will respond in a reasonable time. Please note that some or all of the User Provided Data may be required in order for the Application to function properly.
+We will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. We will retain Automatically Collected information for the time needed and thereafter may store it in aggregate.
+
+### Deleting your account
+
+If you need to delete your account and data assosiated with it please open the app on your device, sign in, go to Menu -> My Account -> Delete my profile. Your account and peronal details will be deleted then but the information you agreed to submit to the public domain will stay in our database. The comments you might have left in the whitewater.guide app will either be deleted or become anonymously posted.
+
+If you experience any difficulties with deleting your account, please contact us at [info@whitewater.guide](info@whitewater.guide) and we will respond in a reasonable time.
 
 ## Transfer of Data
 
